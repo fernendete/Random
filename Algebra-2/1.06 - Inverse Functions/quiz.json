@@ -1,0 +1,127 @@
+{
+    "title": "1.06 — Inverse Functions (Lesson Exam)",
+    "exam": true,
+    "totalpoints": 10,
+    "questions": [
+        {
+            "worth": 1,
+            "title": "What does an inverse function do?",
+            "choices": [
+                "Repeats the original function",
+                "Reverses the original function",
+                "Makes the graph steeper",
+                "Changes the domain"
+            ],
+            "correct": 1,
+            "explain": "The inverse undoes the original function."
+        },
+        {
+            "worth": 1,
+            "title": "What is the first step to find an inverse?",
+            "choices": [
+                "Switch x and y",
+                "Replace f(x) with y",
+                "Solve for x",
+                "Graph the function"
+            ],
+            "correct": 1,
+            "explain": "You start by writing y instead of f(x)."
+        },
+        {
+            "worth": 1,
+            "title": "If f(x) = 2x + 3, what is f⁻¹(x)?",
+            "choices": [
+                "(x + 3) / 2",
+                "(x - 3) / 2",
+                "2x - 3",
+                "2(x - 3)"
+            ],
+            "correct": 1,
+            "explain": "Switch x and y, then solve: y = (x - 3)/2."
+        },
+        {
+            "worth": 1,
+            "title": "What line is used to reflect a graph to get its inverse?",
+            "choices": [
+                "y = 0",
+                "x = 0",
+                "y = x",
+                "y = -x"
+            ],
+            "correct": 2,
+            "explain": "Inverses reflect across the line y = x."
+        },
+        {
+            "worth": 1,
+            "title": "Which test determines if a function has an inverse?",
+            "choices": [
+                "Vertical Line Test",
+                "Horizontal Line Test",
+                "Slope Test",
+                "Domain Test"
+            ],
+            "correct": 1,
+            "explain": "A function must pass the Horizontal Line Test to have an inverse."
+        },
+        {
+            "worth": 1,
+            "title": "If a function fails the Horizontal Line Test, what does that mean?",
+            "choices": [
+                "It has no domain",
+                "It has no range",
+                "It has no inverse",
+                "It is not continuous"
+            ],
+            "correct": 2,
+            "explain": "Failing the test means the function is not one‑to‑one."
+        },
+        {
+            "worth": 1,
+            "title": "If f(x) = x², why does it not have an inverse on all real numbers?",
+            "choices": [
+                "It is too steep",
+                "It fails the Horizontal Line Test",
+                "It has no domain",
+                "It has no range"
+            ],
+            "correct": 1,
+            "explain": "Quadratics repeat y‑values, so they fail the test."
+        },
+        {
+            "worth": 1,
+            "title": "If a point (4, 9) is on f(x), what point is on f⁻¹(x)?",
+            "choices": [
+                "(4, 9)",
+                "(9, 4)",
+                "(4, -9)",
+                "(-9, 4)"
+            ],
+            "correct": 1,
+            "explain": "Inverses swap x and y."
+        },
+        {
+            "worth": 1,
+            "title": "Which of the following is ALWAYS true for f and f⁻¹?",
+            "choices": [
+                "They have the same graph",
+                "They undo each other",
+                "They have the same domain",
+                "They have the same slope"
+            ],
+            "correct": 1,
+            "explain": "Applying f then f⁻¹ returns the original input."
+        },
+        {
+            "worth": 1,
+            "title": "If f(x) = 5x - 10, what is f⁻¹(20)?",
+            "choices": [
+                "2",
+                "4",
+                "6",
+                "8"
+            ],
+            "correct": 2,
+            "explain": "Inverse is (x + 10)/5, so f⁻¹(20) = 6."
+        }
+    ]
+}
