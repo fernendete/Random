@@ -1,0 +1,127 @@
+{
+    "title": "1.04 — Transformations of Functions (Lesson Exam)",
+    "exam": true,
+    "totalpoints": 10,
+    "questions": [
+        {
+            "worth": 1,
+            "title": "What does f(x) + 7 do to a graph?",
+            "choices": [
+                "Moves it left 7 units",
+                "Moves it right 7 units",
+                "Moves it up 7 units",
+                "Moves it down 7 units"
+            ],
+            "correct": 2,
+            "explain": "Adding a positive number shifts the graph upward."
+        },
+        {
+            "worth": 1,
+            "title": "What does f(x) - 4 do?",
+            "choices": [
+                "Moves the graph down 4 units",
+                "Moves the graph up 4 units",
+                "Moves the graph left 4 units",
+                "Moves the graph right 4 units"
+            ],
+            "correct": 0,
+            "explain": "Subtracting a number shifts the graph downward."
+        },
+        {
+            "worth": 1,
+            "title": "What does f(x - 3) do?",
+            "choices": [
+                "Moves the graph left 3 units",
+                "Moves the graph right 3 units",
+                "Moves the graph up 3 units",
+                "Moves the graph down 3 units"
+            ],
+            "correct": 1,
+            "explain": "Inside the parentheses, subtracting moves the graph right."
+        },
+        {
+            "worth": 1,
+            "title": "What does f(x + 5) do?",
+            "choices": [
+                "Moves the graph left 5 units",
+                "Moves the graph right 5 units",
+                "Moves the graph up 5 units",
+                "Moves the graph down 5 units"
+            ],
+            "correct": 0,
+            "explain": "Inside the parentheses, adding moves the graph left."
+        },
+        {
+            "worth": 1,
+            "title": "What does -f(x) do?",
+            "choices": [
+                "Reflects across the y-axis",
+                "Reflects across the x-axis",
+                "Moves the graph down",
+                "Stretches the graph vertically"
+            ],
+            "correct": 1,
+            "explain": "A negative outside flips the graph over the x-axis."
+        },
+        {
+            "worth": 1,
+            "title": "What does f(-x) do?",
+            "choices": [
+                "Reflects across the x-axis",
+                "Reflects across the y-axis",
+                "Moves the graph left",
+                "Moves the graph right"
+            ],
+            "correct": 1,
+            "explain": "A negative inside flips the graph over the y-axis."
+        },
+        {
+            "worth": 1,
+            "title": "What does 3f(x) do?",
+            "choices": [
+                "Vertical stretch by factor of 3",
+                "Vertical compression by factor of 3",
+                "Horizontal stretch by factor of 3",
+                "Horizontal compression by factor of 3"
+            ],
+            "correct": 0,
+            "explain": "Multiplying outside stretches the graph vertically."
+        },
+        {
+            "worth": 1,
+            "title": "What does 0.5f(x) do?",
+            "choices": [
+                "Vertical stretch",
+                "Vertical compression",
+                "Horizontal stretch",
+                "Horizontal compression"
+            ],
+            "correct": 1,
+            "explain": "Multiplying by a number between 0 and 1 compresses vertically."
+        },
+        {
+            "worth": 1,
+            "title": "What does f(2x) do?",
+            "choices": [
+                "Horizontal stretch",
+                "Horizontal compression",
+                "Vertical stretch",
+                "Vertical compression"
+            ],
+            "correct": 1,
+            "explain": "Multiplying x by a number greater than 1 compresses horizontally."
+        },
+        {
+            "worth": 1,
+            "title": "What does f(0.25x) do?",
+            "choices": [
+                "Horizontal stretch",
+                "Horizontal compression",
+                "Vertical stretch",
+                "Vertical compression"
+            ],
+            "correct": 0,
+            "explain": "Multiplying x by a number less than 1 stretches horizontally."
+        }
+    ]
+}
