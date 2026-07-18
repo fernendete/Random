@@ -1,0 +1,79 @@
+{
+    "title": "1.02 — Functions (Lesson Quiz)",
+    "exam": false,
+    "totalpoints": 6,
+    "questions": [
+        {
+            "worth": 1,
+            "title": "Which relation IS a function?",
+            "choices": [
+                "{(2,3), (2,5)}",
+                "{(1,4), (3,7)}",
+                "{(0,2), (0,2), (0,3)}",
+                "{(5,1), (5,1), (5,1)}"
+            ],
+            "correct": 1,
+            "explain": "A function cannot assign two different outputs to the same input."
+        },
+        {
+            "worth": 1,
+            "title": "What is the domain of f(x) = 1/x?",
+            "choices": [
+                "All real numbers",
+                "All real numbers except 0",
+                "Only positive numbers",
+                "Only negative numbers"
+            ],
+            "correct": 1,
+            "explain": "Division by zero is undefined, so x cannot be 0."
+        },
+        {
+            "worth": 1,
+            "title": "What is the range of f(x) = x²?",
+            "choices": [
+                "All real numbers",
+                "y ≥ 0",
+                "y ≤ 0",
+                "Only integers"
+            ],
+            "correct": 1,
+            "explain": "Squares are always non‑negative."
+        },
+        {
+            "worth": 1,
+            "title": "Does a circle pass the Vertical Line Test?",
+            "choices": [
+                "Yes",
+                "No",
+                "Only sometimes",
+                "Only if centered at the origin"
+            ],
+            "correct": 1,
+            "explain": "A vertical line touches a circle twice, so it is not a function."
+        },
+        {
+            "worth": 1,
+            "title": "Evaluate f(4) for f(x) = 3x − 2.",
+            "choices": [
+                "10",
+                "12",
+                "8",
+                "5"
+            ],
+            "correct": 0,
+            "explain": "3(4) − 2 = 12 − 2 = 10."
+        },
+        {
+            "worth": 1,
+            "title": "Which notation represents a function value?",
+            "choices": [
+                "f + x",
+                "f(x)",
+                "fx",
+                "f/x"
+            ],
+            "correct": 1,
+            "explain": "f(x) is the standard notation for a function."
+        }
+    ]
+}
