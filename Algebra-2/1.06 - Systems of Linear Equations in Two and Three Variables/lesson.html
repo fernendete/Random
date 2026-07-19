@@ -1,0 +1,113 @@
+<!-- PAGE 1 — TITLE CARD -->
+<div class="page current">
+    <h1>1.06 — Systems of Linear Equations in Two and Three Variables</h1>
+    <h3>Solving setups with multiple variables using substitution, elimination, and 3D intersections</h3>
+</div>
+
+<!-- PAGE 2 — SYSTEMS IN TWO VARIABLES -->
+<div class="page">
+    <h1>Systems in Two Variables (2D)</h1>
+    <p>A system of linear equations in two variables consists of two lines. The solution is the exact point (x, y) where they intersect.</p>
+
+    <p>There are three possible outcomes for a 2D system:</p>
+    <ul>
+        <li><strong>One Solution:</strong> The lines cross at exactly one independent point.</li>
+        <li><strong>No Solution:</strong> The lines are parallel and never touch (Inconsistent system).</li>
+        <li><strong>Infinite Solutions:</strong> Both equations represent the exact same line (Dependent system).</li>
+    </ul>
+
+    <p>Core Methods to Solve:</p>
+    <ol>
+        <li><strong>Substitution:</strong> Isolate one variable in an equation and plug it into the other.</li>
+        <li><strong>Elimination:</strong> Multiply equations by scalars and add them together to cancel out a variable.</li>
+    </ol>
+</div>
+
+<!-- PAGE 3 — CHOOSE YOUR ALGEBRAIC WEAPON -->
+<div class="page">
+    <h1>Solving a 2D System Example</h1>
+    <p>Let's find the point of intersection for this system:</p>
+
+    <p>
+        <math display="block">
+            <mrow>
+                <mo>{</mo>
+                <mtable>
+                    <mtr>
+                        <mtd><mn>2</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>7</mn></mtd>
+                    </mtr>
+                    <mtr>
+                        <mtd><mi>x</mi><mo>-</mo><mn>3</mn><mi>y</mi><mo>=</mo><mo>-</mo><mn>7</mn></mtd>
+                    </mtr>
+                </mtable>
+            </mrow>
+        </math>
+    </p>
+
+    <p><strong>Step 1 (Substitution):</strong> Isolate y in the first equation → y = 7 - 2x</p>
+    <p><strong>Step 2:</strong> Substitute into the second equation → x - 3(7 - 2x) = -7</p>
+    <p><strong>Step 3:</strong> Distribute and simplify → x - 21 + 6x = -7 → 7x = 14 → <strong>x = 2</strong></p>
+    <p><strong>Step 4:</strong> Plug x back in to find y → y = 7 - 2(2) → <strong>y = 3</strong></p>
+
+    <p>The solution is the coordinates point: <strong>(2, 3)</strong></p>
+</div>
+
+<!-- PAGE 4 — SYSTEMS IN THREE VARIABLES -->
+<div class="page">
+    <h1>Stepping into 3D: Systems in Three Variables</h1>
+    <p>When you add a third variable (z), you leave flat graphs behind. An equation like Ax + By + Cz = D represents a <strong>flat plane in a 3D space</strong>.</p>
+    
+    <p>The solution to a 3D system is an ordered triple <strong>(x, y, z)</strong> where three different planes intersect at a single shared point.</p>
+
+    <p>The Strategy to Defeat 3D Systems:</p>
+    <ol>
+        <li>Pick a pair of equations and use elimination to drop one variable (e.g., get rid of z).</li>
+        <li>Pick a different pair of equations and eliminate the <strong>same</strong> variable.</li>
+        <li>Now you have a standard 2D system with two equations and two variables. Solve it!</li>
+        <li>Back-substitute your answers to uncover the final hidden variable.</li>
+    </ol>
+</div>
+
+<!-- PAGE 5 — QUICK PRACTICE (UI QUIZ BOXES) -->
+<div class="page">
+    <h1>Quick Practice</h1>
+
+    <div class="lesson-quiz">
+        <div class="next-btn">Next question</div>
+
+        <div class="quiz-page current">
+            <div class="all-flex">
+                What geometric shape represents a single linear equation with 3 variables?
+                <div class="answer-element" answer="A flat plane in 3D space">Tap to reveal</div>
+            </div>
+        </div>
+
+        <div class="quiz-page">
+            <div class="all-flex">
+                What do you call a system that has no solutions?
+                <div class="answer-element" answer="An inconsistent system">Tap to reveal</div>
+            </div>
+        </div>
+
+        <div class="quiz-page">
+            <div class="all-flex">
+                What is the solution layout format for a system with three variables?
+                <div class="answer-element" answer="An ordered triple (x, y, z)">Tap to reveal</div>
+            </div>
+        </div>
+
+        <div class="quiz-page">
+            <div class="all-flex">
+                If two equations in a system map out parallel lines, how many solutions exist?
+                <div class="answer-element" answer="No solution (0)">Tap to reveal</div>
+            </div>
+        </div>
+
+        <div class="quiz-page">
+            <div class="all-flex">
+                What is the first step when dealing with a massive 3D system?
+                <div class="answer-element" answer="Eliminate one variable from two different pairs to make it a 2D system">Tap to reveal</div>
+            </div>
+        </div>
+    </div>
+</div>
