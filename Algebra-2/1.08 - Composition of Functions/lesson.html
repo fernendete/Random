@@ -1,0 +1,199 @@
+<html>
+<!-- PAGE 1 -->
+<div class="page current">
+    <h1>1.08 — Composition of Functions</h1>
+    <h3>Understanding (f ∘ g)(x) and How Functions Combine</h3>
+    <p>Next page for content</p>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page">
+    <h1>What is a Composition of Functions?</h1>
+    <p>
+        A <strong>composition of functions</strong> is when you plug one function
+        <em>inside</em> another function.
+    </p>
+
+    <p>It looks like this:</p>
+
+    <pre>
+(f ∘ g)(x) = f(g(x))
+    </pre>
+
+    <p>
+        This means: first evaluate g(x), then take that result and plug it into f(x).
+    </p>
+
+    <h2>Example</h2>
+
+    <pre>
+f(x) = 2x + 1
+g(x) = x - 3
+
+Find (f ∘ g)(x):
+
+Step 1: g(x) = x - 3
+Step 2: f(g(x)) = f(x - 3)
+Step 3: f(x - 3) = 2(x - 3) + 1 = 2x - 6 + 1 = 2x - 5
+    </pre>
+
+    <p>
+        So the composition is:
+    </p>
+
+    <pre>
+(f ∘ g)(x) = 2x - 5
+    </pre>
+
+    <hr>
+
+    <div class="lesson-quiz">
+        <div class="next-btn">Next page</div>
+
+        <div class="quiz-page current">
+            <div class="all-flex">
+                What does (f ∘ g)(x) mean?
+                <div class="answer-element" answer="f(g(x)) — plug g(x) into f(x)">Tap to reveal</div>
+            </div>
+        </div>
+
+        <div class="quiz-page">
+            <div class="all-flex">
+                In the example, what is g(x)?
+                <div class="answer-element" answer="g(x) = x - 3">Tap to reveal</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PAGE 3 -->
+<div class="page">
+    <h1>Evaluating Compositions</h1>
+    <p>
+        To evaluate a composition at a number, follow the same steps:
+    </p>
+
+    <h2>Example</h2>
+
+    <pre>
+f(x) = x²
+g(x) = 4x
+
+Find (f ∘ g)(2):
+
+Step 1: g(2) = 4(2) = 8
+Step 2: f(8) = 8² = 64
+
+So (f ∘ g)(2) = 64
+    </pre>
+
+    <hr>
+
+    <div class="lesson-quiz">
+        <div class="next-btn">Next page</div>
+
+        <div class="quiz-page current">
+            <div class="all-flex">
+                If f(x) = x² and g(x) = 4x, what is g(2)?
+                <div class="answer-element" answer="8">Tap to reveal</div>
+            </div>
+        </div>
+
+        <div class="quiz-page">
+            <div class="all-flex">
+                What is (f ∘ g)(2)?
+                <div class="answer-element" answer="64">Tap to reveal</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PAGE 4 -->
+<div class="page">
+    <h1>Order Matters</h1>
+    <p>
+        Compositions are NOT reversible.
+        (f ∘ g)(x) is usually NOT the same as (g ∘ f)(x).
+    </p>
+
+    <h2>Example</h2>
+
+    <pre>
+f(x) = x + 1
+g(x) = 3x
+
+(f ∘ g)(x) = f(g(x)) = f(3x) = 3x + 1
+
+(g ∘ f)(x) = g(f(x)) = g(x + 1) = 3(x + 1) = 3x + 3
+    </pre>
+
+    <p>
+        They are different!
+    </p>
+
+    <hr>
+
+    <div class="lesson-quiz">
+        <div class="next-btn">Next page</div>
+
+        <div class="quiz-page current">
+            <div class="all-flex">
+                Is (f ∘ g)(x) usually equal to (g ∘ f)(x)?
+                <div class="answer-element" answer="No, order matters">Tap to reveal</div>
+            </div>
+        </div>
+
+        <div class="quiz-page">
+            <div class="all-flex">
+                In the example, what is (f ∘ g)(x)?
+                <div class="answer-element" answer="3x + 1">Tap to reveal</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PAGE 5 -->
+<div class="page">
+    <h1>Decomposing Functions</h1>
+    <p>
+        Sometimes you are given a complicated function and asked to break it into
+        two simpler functions f(x) and g(x).
+    </p>
+
+    <h2>Example</h2>
+
+    <pre>
+Given: h(x) = (3x + 1)²
+
+One possible decomposition:
+g(x) = 3x + 1
+f(x) = x²
+
+Then: (f ∘ g)(x) = f(g(x)) = (3x + 1)²
+    </pre>
+
+    <p>
+        There are many valid decompositions — you just need two functions that combine to make the original.
+    </p>
+
+    <hr>
+
+    <div class="lesson-quiz">
+        <div class="next-btn">End of lesson</div>
+
+        <div class="quiz-page current">
+            <div class="all-flex">
+                What does it mean to “decompose” a function?
+                <div class="answer-element" answer="Break a function into two simpler functions">Tap to reveal</div>
+            </div>
+        </div>
+
+        <div class="quiz-page">
+            <div class="all-flex">
+                In the example, what is g(x)?
+                <div class="answer-element" answer="g(x) = 3x + 1">Tap to reveal</div>
+            </div>
+        </div>
+    </div>
+</div>
+</html>
