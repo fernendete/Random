@@ -1,127 +1,127 @@
 {
-    "title": "1.06 — Inverse Functions (Lesson Exam)",
+    "title": "1.06 — Systems of Linear Equations in Two and Three Variables",
     "exam": true,
     "totalpoints": 10,
     "questions": [
         {
             "worth": 1,
-            "title": "What does an inverse function do?",
+            "title": "What is the solution to a system of two linear equations graphically?",
             "choices": [
-                "Repeats the original function",
-                "Reverses the original function",
-                "Makes the graph steeper",
-                "Changes the domain"
+                "The y-intercept of the lines",
+                "The point where the two lines intersect",
+                "The area between the two lines",
+                "The slope of the steeper line"
             ],
             "correct": 1,
-            "explain": "The inverse undoes the original function."
+            "explain": "The solution to a 2D system is the exact point (x, y) shared by both lines where they cross."
         },
         {
             "worth": 1,
-            "title": "What is the first step to find an inverse?",
+            "title": "If a 2D linear system has no solution, what is true about the lines?",
             "choices": [
-                "Switch x and y",
-                "Replace f(x) with y",
-                "Solve for x",
-                "Graph the function"
-            ],
-            "correct": 1,
-            "explain": "You start by writing y instead of f(x)."
-        },
-        {
-            "worth": 1,
-            "title": "If f(x) = 2x + 3, what is f⁻¹(x)?",
-            "choices": [
-                "(x + 3) / 2",
-                "(x - 3) / 2",
-                "2x - 3",
-                "2(x - 3)"
-            ],
-            "correct": 1,
-            "explain": "Switch x and y, then solve: y = (x - 3)/2."
-        },
-        {
-            "worth": 1,
-            "title": "What line is used to reflect a graph to get its inverse?",
-            "choices": [
-                "y = 0",
-                "x = 0",
-                "y = x",
-                "y = -x"
+                "They are perpendicular",
+                "They are the exact same line",
+                "They are parallel lines",
+                "They cross at the origin"
             ],
             "correct": 2,
-            "explain": "Inverses reflect across the line y = x."
+            "explain": "Parallel lines share the same slope but different intercepts, meaning they never touch and have no solution."
         },
         {
             "worth": 1,
-            "title": "Which test determines if a function has an inverse?",
+            "title": "What do you call a system of equations that has at least one solution?",
             "choices": [
-                "Vertical Line Test",
-                "Horizontal Line Test",
-                "Slope Test",
-                "Domain Test"
+                "Consistent system",
+                "Inconsistent system",
+                "Dependent system",
+                "Independent system"
             ],
-            "correct": 1,
-            "explain": "A function must pass the Horizontal Line Test to have an inverse."
+            "correct": 0,
+            "explain": "A system is consistent if it has one or more solutions. If it has absolutely no solutions, it is inconsistent."
         },
         {
             "worth": 1,
-            "title": "If a function fails the Horizontal Line Test, what does that mean?",
+            "title": "Solve the system using substitution: y = 2x - 1 and 3x + y = 9. What is the value of x?",
             "choices": [
-                "It has no domain",
-                "It has no range",
-                "It has no inverse",
-                "It is not continuous"
-            ],
-            "correct": 2,
-            "explain": "Failing the test means the function is not one‑to‑one."
-        },
-        {
-            "worth": 1,
-            "title": "If f(x) = x², why does it not have an inverse on all real numbers?",
-            "choices": [
-                "It is too steep",
-                "It fails the Horizontal Line Test",
-                "It has no domain",
-                "It has no range"
-            ],
-            "correct": 1,
-            "explain": "Quadratics repeat y‑values, so they fail the test."
-        },
-        {
-            "worth": 1,
-            "title": "If a point (4, 9) is on f(x), what point is on f⁻¹(x)?",
-            "choices": [
-                "(4, 9)",
-                "(9, 4)",
-                "(4, -9)",
-                "(-9, 4)"
-            ],
-            "correct": 1,
-            "explain": "Inverses swap x and y."
-        },
-        {
-            "worth": 1,
-            "title": "Which of the following is ALWAYS true for f and f⁻¹?",
-            "choices": [
-                "They have the same graph",
-                "They undo each other",
-                "They have the same domain",
-                "They have the same slope"
-            ],
-            "correct": 1,
-            "explain": "Applying f then f⁻¹ returns the original input."
-        },
-        {
-            "worth": 1,
-            "title": "If f(x) = 5x - 10, what is f⁻¹(20)?",
-            "choices": [
-                "2",
-                "4",
-                "6",
-                "8"
+                "x = 1",
+                "x = 2",
+                "x = 3",
+                "x = 4"
             ],
             "correct": 2,
-            "explain": "Inverse is (x + 10)/5, so f⁻¹(20) = 6."
+            "explain": "Substitute y: 3x + (2x - 1) = 9 -> 5x - 1 = 9 -> 5x = 10 -> x = 2."
+        },
+        {
+            "worth": 1,
+            "title": "If elimination results in an equation like 0 = 0, what does this indicate?",
+            "choices": [
+                "The system has exactly one solution at (0,0)",
+                "The system is inconsistent with no solutions",
+                "The system has infinitely many solutions",
+                "The math choice is impossible to determine"
+            ],
+            "correct": 2,
+            "explain": "A true statement like 0 = 0 means the equations are dependent and represent identical lines, yielding infinite solutions."
+        },
+        {
+            "worth": 1,
+            "title": "Geometrically, what does a single linear equation with three variables (Ax + By + Cz = D) represent?",
+            "choices": [
+                "A line in a 3D space",
+                "A flat plane in a 3D space",
+                "A rectangular box",
+                "A curved surface"
+            ],
+            "correct": 1,
+            "explain": "Adding a third dimension variable maps out a flat, infinite surface called a plane."
+        },
+        {
+            "worth": 1,
+            "title": "What is the primary target strategy when starting to solve a 3D linear system algebraically?",
+            "choices": [
+                "Eliminate one variable using two different pairs of equations to reduce it to a 2D system",
+                "Graph all three lines on a standard grid",
+                "Guess values for x, y, and z until they balance out",
+                "Multiply all three equations together directly"
+            ],
+            "correct": 0,
+            "explain": "By choosing a target variable to eliminate across two separate pairs, you drop the problem down to a standard 2D system."
+        },
+        {
+            "worth": 1,
+            "title": "Solve the 2D system: x + y = 6 and x - y = 2. Find the ordered pair solution.",
+            "choices": [
+                "(3, 3)",
+                "(5, 1)",
+                "(4, 2)",
+                "(2, 4)"
+            ],
+            "correct": 2,
+            "explain": "Adding the equations eliminates y: 2x = 8 -> x = 4. Plugging x back in: 4 + y = 6 -> y = 2. The solution is (4, 2)."
+        },
+        {
+            "worth": 1,
+            "title": "If three planes in a 3D system are parallel to each other like sheets of paper, how many solutions are there?",
+            "choices": [
+                "Exactly 1 solution",
+                "Exactly 3 solutions",
+                "Infinitely many solutions",
+                "No solution"
+            ],
+            "correct": 3,
+            "explain": "Because parallel planes never intersect all at once at any common point, the system is inconsistent and has no solution."
+        },
+        {
+            "worth": 1,
+            "title": "In a 3D system solution group, what is the correct layout format for the final answer?",
+            "choices": [
+                "An ordered pair (x, y)",
+                "A single variable x",
+                "An ordered triple (x, y, z)",
+                "A matrix column coordinate"
+            ],
+            "correct": 2,
+            "explain": "Solutions in a three-variable system require values for all three dimensional axes, represented as an ordered triple (x, y, z)."
         }
     ]
 }
