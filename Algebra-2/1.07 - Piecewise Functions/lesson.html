@@ -1,5 +1,4 @@
 <html>
-
     <!-- PAGE 1 -->
     <div class="page current">
         <h1>1.07 — Piecewise Functions</h1>
@@ -10,31 +9,22 @@
     <!-- PAGE 2 -->
     <div class="page">
         <h1>What is a Piecewise Function?</h1>
-        <p>A <strong>piecewise function</strong> is a function defined by <strong>different formulas</strong> depending on the value of x.</p>
+        <p>
+            A <strong>piecewise function</strong> is a function that uses 
+            <strong>different formulas</strong> depending on the value of x.
+        </p>
     
-        <p>Example:</p>
-        <math>
-            <mrow>
-                <mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo>
-                <mrow>
-                    <mo>{</mo>
-                    <mtable columnalign="left">
-                        <mtr>
-                            <mtd><mi>x</mi><mo>+</mo><mn>2</mn></mtd>
-                            <mtd><mtext>if </mtext><mi>x</mi><mo><lt/></mo><mn>0</mn></mtd>
-                        </mtr>
-                        <mtr>
-                            <mtd><mn>3</mn></mtd>
-                            <mtd><mtext>if </mtext><mi>x</mi><mo>=</mo><mn>0</mn></mtd>
-                        </mtr>
-                        <mtr>
-                            <mtd><msup><mi>x</mi><mn>2</mn></msup></mtd>
-                            <mtd><mtext>if </mtext><mi>x</mi><mo>></mo><mn>0</mn></mtd>
-                        </mtr>
-                    </mtable>
-                </mrow>
-            </mrow>
-        </math>
+        <p>Example (written without MathML tables):</p>
+    
+        <pre>
+    f(x) = x + 2    if x < 0
+    f(x) = 3        if x = 0
+    f(x) = x²       if x > 0
+        </pre>
+    
+        <p>
+            This means the function behaves differently depending on the region of x.
+        </p>
     
         <hr>
     
@@ -67,31 +57,18 @@
         </ul>
     
         <h2>Example</h2>
-        <math>
-            <mrow>
-                <mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo>
-                <mrow>
-                    <mo>{</mo>
-                    <mtable columnalign="left">
-                        <mtr>
-                            <mtd><mn>2</mn><mi>x</mi></mtd>
-                            <mtd><mtext>if </mtext><mi>x</mi><mo><le/></mo><mn>1</mn></mtd>
-                        </mtr>
-                        <mtr>
-                            <mtd><mi>x</mi><mo>+</mo><mn>4</mn></mtd>
-                            <mtd><mtext>if </mtext><mi>x</mi><mo>></mo><mn>1</mn></mtd>
-                        </mtr>
-                    </mtable>
-                </mrow>
-            </mrow>
-        </math>
+    
+        <pre>
+    g(x) = 2x       if x ≤ 1
+    g(x) = x + 4    if x > 1
+        </pre>
     
         <p>Find g(1):</p>
-        <math>
-            <mrow>
-                <mi>g</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>2</mn><mo>×</mo><mn>1</mn><mo>=</mo><mn>2</mn>
-            </mrow>
-        </math>
+    
+        <pre>
+    Since 1 ≤ 1, use 2x:
+    g(1) = 2(1) = 2
+        </pre>
     
         <hr>
     
@@ -117,37 +94,26 @@
     <!-- PAGE 4 -->
     <div class="page">
         <h1>Graphing Piecewise Functions</h1>
-        <p>When graphing:</p>
+        <p>When graphing a piecewise function:</p>
         <ul>
             <li>Graph each piece separately</li>
-            <li>Use open or closed circles depending on the condition</li>
+            <li>Use open circles for &lt; or &gt;</li>
+            <li>Use closed circles for ≤ or ≥</li>
             <li>Switch formulas at the correct x-value</li>
         </ul>
     
         <h2>Example</h2>
-        <math>
-            <mrow>
-                <mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo>
-                <mrow>
-                    <mo>{</mo>
-                    <mtable columnalign="left">
-                        <mtr>
-                            <mtd><mn>1</mn></mtd>
-                            <mtd><mtext>if </mtext><mi>x</mi><mo><lt/></mo><mn>0</mn></mtd>
-                        </mtr>
-                        <mtr>
-                            <mtd><mi>x</mi></mtd>
-                            <mtd><mtext>if </mtext><mi>x</mi><mo>≥</mo><mn>0</mn></mtd>
-                        </mtr>
-                    </mtable>
-                </mrow>
-            </mrow>
-        </math>
     
-        <p>At x = 0, the second piece applies → closed circle.</p>
+        <pre>
+    h(x) = 1     if x < 0
+    h(x) = x     if x ≥ 0
+        </pre>
+    
+        <p>
+            At x = 0, the second piece applies → closed circle at (0, 0).
+        </p>
     
         <hr>
-    
     
         <div class="lesson-quiz">
             <div class="next-btn">Next page</div>
@@ -167,4 +133,5 @@
             </div>
         </div>
     </div>
+
 </html>
