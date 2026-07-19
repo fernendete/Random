@@ -1,0 +1,127 @@
+{
+  "title": "1.07 — Piecewise Functions (Lesson Exam)",
+  "exam": true,
+  "totalpoints": 10,
+  "questions": [
+    {
+      "worth": 1,
+      "title": "What is a piecewise function?",
+      "choices": [
+        "A function defined by a single formula for all x-values",
+        "A function defined by different formulas on different intervals of x",
+        "A function that is always linear",
+        "A function that is always quadratic"
+      ],
+      "correct": 1,
+      "explain": "A piecewise function uses different rules (formulas) depending on the value of x."
+    },
+    {
+      "worth": 1,
+      "title": "Which of the following is a piecewise function?",
+      "choices": [
+        "<math><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>",
+        "<math><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mrow><mo>{</mo><mtable><mtr><mtd><mi>x</mi><mo>+</mo><mn>3</mn></mtd><mtd><mtext>if </mtext><mi>x</mi><mo><lt/></mo><mn>0</mn></mtd></mtr><mtr><mtd><mn>5</mn></mtd><mtd><mtext>if </mtext><mi>x</mi><mo>≥</mo><mn>0</mn></mtd></mtr></mtable></mrow></mrow></math>",
+        "<math><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>",
+        "<math><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msqrt><mi>x</mi></msqrt></mrow></math>"
+      ],
+      "correct": 1,
+      "explain": "Only the second option shows different formulas with conditions on x."
+    },
+    {
+      "worth": 1,
+      "title": "Given the function below, which formula is used when x = −2?\n\n<math><mrow><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mrow><mo>{</mo><mtable><mtr><mtd><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mtd><mtd><mtext>if </mtext><mi>x</mi><mo><lt/></mo><mn>0</mn></mtd></mtr><mtr><mtd><msup><mi>x</mi><mn>2</mn></msup></mtd><mtd><mtext>if </mtext><mi>x</mi><mo>≥</mo><mn>0</mn></mtd></mtr></mtable></mrow></mrow></math>",
+      "choices": [
+        "g(x) = 2x − 1",
+        "g(x) = x²",
+        "g(x) = 2x + 1",
+        "g(x) = −x²"
+      ],
+      "correct": 0,
+      "explain": "Since −2 < 0, we use the first piece: g(x) = 2x − 1."
+    },
+    {
+      "worth": 1,
+      "title": "Using the same function g(x) from the previous question, what is g(−2)?\n\n<math><mrow><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mrow><mo>{</mo><mtable><mtr><mtd><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mtd><mtd><mtext>if </mtext><mi>x</mi><mo><lt/></mo><mn>0</mn></mtd></mtr><mtr><mtd><msup><mi>x</mi><mn>2</mn></msup></mtd><mtd><mtext>if </mtext><mi>x</mi><mo>≥</mo><mn>0</mn></mtd></mtr></mtable></mrow></mrow></math>",
+      "choices": [
+        "-5",
+        "-3",
+        "3",
+        "5"
+      ],
+      "correct": 0,
+      "explain": "g(−2) = 2(−2) − 1 = −4 − 1 = −5."
+    },
+    {
+      "worth": 1,
+      "title": "Consider the function:\n\n<math><mrow><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mrow><mo>{</mo><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mtext>if </mtext><mi>x</mi><mo><lt/></mo><mn>0</mn></mtd></mtr><mtr><mtd><mi>x</mi></mtd><mtd><mtext>if </mtext><mi>x</mi><mo>≥</mo><mn>0</mn></mtd></mtr></mtable></mrow></mrow></math>\n\nWhich statement is true about h(x) at x = 0?",
+      "choices": [
+        "h(0) uses the first piece and equals 1",
+        "h(0) uses the second piece and equals 0",
+        "h(0) is undefined",
+        "h(0) can be either 1 or 0"
+      ],
+      "correct": 1,
+      "explain": "The condition x ≥ 0 includes x = 0, so h(0) = 0 from the second piece."
+    },
+    {
+      "worth": 1,
+      "title": "Which inequality would make the point at x = 3 a closed circle on the graph?",
+      "choices": [
+        "x &lt; 3",
+        "x ≤ 3",
+        "x &gt; 3",
+        "x ≠ 3"
+      ],
+      "correct": 1,
+      "explain": "Using ≤ or ≥ includes the endpoint, which is shown with a closed circle."
+    },
+    {
+      "worth": 1,
+      "title": "A piecewise function is defined as:\n\n<math><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mrow><mo>{</mo><mtable><mtr><mtd><mi>x</mi><mo>+</mo><mn>2</mn></mtd><mtd><mtext>if </mtext><mi>x</mi><mo><lt/></mo><mn>1</mn></mtd></mtr><mtr><mtd><mn>4</mn></mtd><mtd><mtext>if </mtext><mi>x</mi><mo>≥</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math>\n\nWhat is f(1)?",
+      "choices": [
+        "3",
+        "4",
+        "5",
+        "Undefined"
+      ],
+      "correct": 1,
+      "explain": "Since 1 ≥ 1, we use the second piece: f(1) = 4."
+    },
+    {
+      "worth": 1,
+      "title": "Which description best matches how to evaluate a piecewise function?",
+      "choices": [
+        "Always use the first formula, regardless of x",
+        "Use the formula that gives the largest output",
+        "Choose the formula based on the condition that x satisfies",
+        "Average all formulas and use that value"
+      ],
+      "correct": 2,
+      "explain": "You must check which interval x is in and then use that specific formula."
+    },
+    {
+      "worth": 1,
+      "title": "Consider:\n\n<math><mrow><mi>p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mrow><mo>{</mo><mtable><mtr><mtd><msup><mi>x</mi><mn>2</mn></msup></mtd><mtd><mtext>if </mtext><mi>x</mi><mo><lt/></mo><mn>2</mn></mtd></mtr><mtr><mtd><mn>3</mn><mi>x</mi></mtd><mtd><mtext>if </mtext><mi>x</mi><mo>≥</mo><mn>2</mn></mtd></mtr></mtable></mrow></mrow></math>\n\nWhat is p(2)?",
+      "choices": [
+        "4",
+        "6",
+        "3",
+        "Undefined"
+      ],
+      "correct": 1,
+      "explain": "Since 2 ≥ 2, use 3x: p(2) = 3(2) = 6."
+    },
+    {
+      "worth": 1,
+      "title": "Why can a piecewise function still be a valid function even if it has multiple formulas?",
+      "choices": [
+        "Because each x-value still has exactly one output",
+        "Because each x-value can have many outputs",
+        "Because the formulas never overlap",
+        "Because the graph is always continuous"
+      ],
+      "correct": 0,
+      "explain": "As long as no x-value is assigned more than one y-value, it is still a function."
+    }
+  ]
+}
