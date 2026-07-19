@@ -1,5 +1,5 @@
 {
-  "title": "1.07 — Piecewise Functions (Lesson Exam)",
+  "title": "1.07 — Piecewise Functions",
   "exam": true,
   "totalpoints": 10,
   "questions": [
@@ -13,35 +13,35 @@
         "A function that is always quadratic"
       ],
       "correct": 1,
-      "explain": "A piecewise function uses different rules (formulas) depending on the value of x."
+      "explain": "A piecewise function uses different rules depending on the value of x."
     },
     {
       "worth": 1,
       "title": "Which of the following is a piecewise function?",
       "choices": [
-        "<math><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>",
-        "<math><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mrow><mo>{</mo><mtable><mtr><mtd><mi>x</mi><mo>+</mo><mn>3</mn></mtd><mtd><mtext>if </mtext><mi>x</mi><mo><lt/></mo><mn>0</mn></mtd></mtr><mtr><mtd><mn>5</mn></mtd><mtd><mtext>if </mtext><mi>x</mi><mo>≥</mo><mn>0</mn></mtd></mtr></mtable></mrow></mrow></math>",
-        "<math><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>",
-        "<math><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msqrt><mi>x</mi></msqrt></mrow></math>"
+        "f(x) = 2x + 1",
+        "f(x) = x + 3 if x < 0; f(x) = 5 if x ≥ 0",
+        "f(x) = x²",
+        "f(x) = √x"
       ],
       "correct": 1,
       "explain": "Only the second option shows different formulas with conditions on x."
     },
     {
       "worth": 1,
-      "title": "Given the function below, which formula is used when x = −2?\n\n<math><mrow><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mrow><mo>{</mo><mtable><mtr><mtd><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mtd><mtd><mtext>if </mtext><mi>x</mi><mo><lt/></mo><mn>0</mn></mtd></mtr><mtr><mtd><msup><mi>x</mi><mn>2</mn></msup></mtd><mtd><mtext>if </mtext><mi>x</mi><mo>≥</mo><mn>0</mn></mtd></mtr></mtable></mrow></mrow></math>",
+      "title": "Given the function below, which formula is used when x = -2?\n\ng(x) = 2x - 1 if x < 0\n       x²       if x ≥ 0",
       "choices": [
-        "g(x) = 2x − 1",
+        "g(x) = 2x - 1",
         "g(x) = x²",
         "g(x) = 2x + 1",
-        "g(x) = −x²"
+        "g(x) = -x²"
       ],
       "correct": 0,
-      "explain": "Since −2 < 0, we use the first piece: g(x) = 2x − 1."
+      "explain": "Since -2 < 0, we use the first piece."
     },
     {
       "worth": 1,
-      "title": "Using the same function g(x) from the previous question, what is g(−2)?\n\n<math><mrow><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mrow><mo>{</mo><mtable><mtr><mtd><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mtd><mtd><mtext>if </mtext><mi>x</mi><mo><lt/></mo><mn>0</mn></mtd></mtr><mtr><mtd><msup><mi>x</mi><mn>2</mn></msup></mtd><mtd><mtext>if </mtext><mi>x</mi><mo>≥</mo><mn>0</mn></mtd></mtr></mtable></mrow></mrow></math>",
+      "title": "Using the same function g(x), what is g(-2)?\n\ng(x) = 2x - 1 if x < 0\n       x²       if x ≥ 0",
       "choices": [
         "-5",
         "-3",
@@ -49,11 +49,11 @@
         "5"
       ],
       "correct": 0,
-      "explain": "g(−2) = 2(−2) − 1 = −4 − 1 = −5."
+      "explain": "g(-2) = 2(-2) - 1 = -4 - 1 = -5."
     },
     {
       "worth": 1,
-      "title": "Consider the function:\n\n<math><mrow><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mrow><mo>{</mo><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mtext>if </mtext><mi>x</mi><mo><lt/></mo><mn>0</mn></mtd></mtr><mtr><mtd><mi>x</mi></mtd><mtd><mtext>if </mtext><mi>x</mi><mo>≥</mo><mn>0</mn></mtd></mtr></mtable></mrow></mrow></math>\n\nWhich statement is true about h(x) at x = 0?",
+      "title": "Consider the function:\n\nh(x) = 1 if x < 0\n       x if x ≥ 0\n\nWhich statement is true about h(0)?",
       "choices": [
         "h(0) uses the first piece and equals 1",
         "h(0) uses the second piece and equals 0",
@@ -61,23 +61,23 @@
         "h(0) can be either 1 or 0"
       ],
       "correct": 1,
-      "explain": "The condition x ≥ 0 includes x = 0, so h(0) = 0 from the second piece."
+      "explain": "The condition x ≥ 0 includes x = 0, so h(0) = 0."
     },
     {
       "worth": 1,
       "title": "Which inequality would make the point at x = 3 a closed circle on the graph?",
       "choices": [
-        "x &lt; 3",
+        "x < 3",
         "x ≤ 3",
-        "x &gt; 3",
+        "x > 3",
         "x ≠ 3"
       ],
       "correct": 1,
-      "explain": "Using ≤ or ≥ includes the endpoint, which is shown with a closed circle."
+      "explain": "≤ or ≥ includes the endpoint, so it is closed."
     },
     {
       "worth": 1,
-      "title": "A piecewise function is defined as:\n\n<math><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mrow><mo>{</mo><mtable><mtr><mtd><mi>x</mi><mo>+</mo><mn>2</mn></mtd><mtd><mtext>if </mtext><mi>x</mi><mo><lt/></mo><mn>1</mn></mtd></mtr><mtr><mtd><mn>4</mn></mtd><mtd><mtext>if </mtext><mi>x</mi><mo>≥</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math>\n\nWhat is f(1)?",
+      "title": "A piecewise function is defined as:\n\nf(x) = x + 2 if x < 1\n       4     if x ≥ 1\n\nWhat is f(1)?",
       "choices": [
         "3",
         "4",
@@ -85,23 +85,23 @@
         "Undefined"
       ],
       "correct": 1,
-      "explain": "Since 1 ≥ 1, we use the second piece: f(1) = 4."
+      "explain": "Since 1 ≥ 1, use the second piece: f(1) = 4."
     },
     {
       "worth": 1,
       "title": "Which description best matches how to evaluate a piecewise function?",
       "choices": [
-        "Always use the first formula, regardless of x",
+        "Always use the first formula",
         "Use the formula that gives the largest output",
         "Choose the formula based on the condition that x satisfies",
         "Average all formulas and use that value"
       ],
       "correct": 2,
-      "explain": "You must check which interval x is in and then use that specific formula."
+      "explain": "You must check which interval x belongs to."
     },
     {
       "worth": 1,
-      "title": "Consider:\n\n<math><mrow><mi>p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mrow><mo>{</mo><mtable><mtr><mtd><msup><mi>x</mi><mn>2</mn></msup></mtd><mtd><mtext>if </mtext><mi>x</mi><mo><lt/></mo><mn>2</mn></mtd></mtr><mtr><mtd><mn>3</mn><mi>x</mi></mtd><mtd><mtext>if </mtext><mi>x</mi><mo>≥</mo><mn>2</mn></mtd></mtr></mtable></mrow></mrow></math>\n\nWhat is p(2)?",
+      "title": "Consider:\n\np(x) = x²   if x < 2\n       3x   if x ≥ 2\n\nWhat is p(2)?",
       "choices": [
         "4",
         "6",
@@ -109,7 +109,7 @@
         "Undefined"
       ],
       "correct": 1,
-      "explain": "Since 2 ≥ 2, use 3x: p(2) = 3(2) = 6."
+      "explain": "Since 2 ≥ 2, use 3x: p(2) = 6."
     },
     {
       "worth": 1,
@@ -121,7 +121,7 @@
         "Because the graph is always continuous"
       ],
       "correct": 0,
-      "explain": "As long as no x-value is assigned more than one y-value, it is still a function."
+      "explain": "A function is valid as long as each input has one output."
     }
   ]
 }
