@@ -1,164 +1,140 @@
-<html>
+<!-- PAGE 1 — TITLE CARD -->
+<div class="page">
+    <h1>1.03 — Solving Radical Equations</h1>
+    <h3>What reasoning and explanations can be used when solving radical equations, and how do extraneous solutions arise?</h3>
+</div>
 
-    <div class="page current">
-        <h1>1.03 — Types of Functions</h1>
-        <h3>Linear, Quadratic, Absolute Value & More</h3>
+<!-- PAGE 2 — UNDERSTANDING RADICAL EQUATIONS -->
+<div class="page">
+    <h1>Understanding Radical Equations</h1>
+    <p>A <strong>radical equation</strong> is an equation in which a variable is contained inside a radicand (under a radical sign) or is raised to a fractional exponent.</p>
+    
+    <p>Solving these equations relies on a simple algebraic principle: <strong>inverse operations</strong>. To eliminate a root, we must raise both sides of the equation to the power equal to the index of the root.</p>
+
+    <h3>The 3-Step Core Protocol</h3>
+    <ol>
+        <li><strong>Isolate:</strong> Manipulate the equation to get the radical term entirely by itself on one side of the equal sign.</li>
+        <li><strong>Eliminate:</strong> Raise both sides of the equation to the power of the radical's index. For square roots, square both sides; for cube roots, cube both sides.</li>
+        <li><strong>Solve & Verify:</strong> Solve the remaining equation using standard algebraic methods, and <em>always</em> check your solutions in the original equation.</li>
+    </ol>
+
+    <h3>Example 1: Basic Radical Equation</h3>
+    <p>Solve the following equation: </p>
+    $$ \sqrt{x + 7} - 2 = 0 $$
+    
+    <p><strong>Step 1: Isolate the radical.</strong> Add $2$ to both sides:</p>
+    $$ \sqrt{x + 7} = 2 $$
+
+    <p><strong>Step 2: Eliminate the radical.</strong> Square both sides:</p>
+    $$ (\sqrt{x + 7})^2 = 2^2 \Rightarrow x + 7 = 4 $$
+
+    <p><strong>Step 3: Solve.</strong> Subtract $7$ from both sides:</p>
+    $$ x = -3 $$
+
+    <p><strong>Step 4: Check.</strong> Plug $x = -3$ back into the original equation:</p>
+    $$ \sqrt{-3 + 7} - 2 = \sqrt{4} - 2 = 2 - 2 = 0 \quad \text{(Valid!)} $$
+</div>
+
+<!-- PAGE 3 — THE DANGER OF EXTRANEOUS SOLUTIONS -->
+<div class="page">
+    <h1>The Danger of Extraneous Solutions</h1>
+    <p>When solving radical equations, raising both sides to an even power (such as squaring) can introduce **extraneous solutions**. These are solutions that are mathematically derived during the process but do not actually satisfy the original equation.</p>
+
+    <div class="concept-callout">
+        <h4>Why do extraneous solutions happen?</h4>
+        <p>Squaring a number loses its original sign. For example, both $3^2 = 9$ and $(-3)^2 = 9$. When we square both sides of an equation, we create a new "derived" equation that assumes both positive and negative values are equal, which can produce a false positive result.</p>
     </div>
-    
-    <div class="page">
-        <h1>What Are Function Types?</h1>
-        <p>Functions come in many shapes and behaviors. Each type has its own graph, equation form, and characteristics.</p>
-        <p>In this lesson, we will look at the most common types:</p>
-    
-        <ul>
-            <li>Linear Functions</li>
-            <li>Quadratic Functions</li>
-            <li>Absolute Value Functions</li>
-            <li>Exponential Functions</li>
-            <li>Cubic Functions</li>
-        </ul>
-    
-        <hr>
-    
-        <h1>Linear Functions</h1>
-        <p>A <strong>linear function</strong> forms a straight line. Its equation is:</p>
-    
-        <p>
-            <math>
-                <mrow>
-                    <mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>b</mi>
-                </mrow>
-            </math>
-        </p>
-    
-        <p>Characteristics:</p>
-        <ul>
-            <li>Constant rate of change</li>
-            <li>Slope (m) tells how steep the line is</li>
-            <li>y-intercept (b) tells where the line crosses the y-axis</li>
-        </ul>
-    
-        <hr>
-    
-        <h1>Quadratic Functions</h1>
-        <p>A <strong>quadratic function</strong> forms a parabola. Its equation is:</p>
-    
-        <p>
-            <math>
-                <mrow>
-                    <mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>bx</mi><mo>+</mo><mi>c</mi>
-                </mrow>
-            </math>
-        </p>
-    
-        <p>Characteristics:</p>
-        <ul>
-            <li>U-shaped graph (opens up or down)</li>
-            <li>Has a vertex (minimum or maximum)</li>
-            <li>Rate of change is NOT constant</li>
-        </ul>
-    
-        <hr>
-    
-        <h1>Absolute Value Functions</h1>
-        <p>An <strong>absolute value function</strong> forms a V-shaped graph. Its equation is:</p>
-    
-        <p>
-            <math>
-                <mrow>
-                    <mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>|</mo><mi>x</mi><mo>|</mo>
-                </mrow>
-            </math>
-        </p>
-    
-        <p>Characteristics:</p>
-        <ul>
-            <li>Sharp corner at the vertex</li>
-            <li>Symmetric</li>
-            <li>Piecewise behavior</li>
-        </ul>
-    
-        <hr>
-    
-        <h1>Exponential Functions</h1>
-        <p>An <strong>exponential function</strong> grows or decays rapidly. Its equation is:</p>
-    
-        <p>
-            <math>
-                <mrow>
-                    <mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><msup><mi>b</mi><mi>x</mi></msup>
-                </mrow>
-            </math>
-        </p>
-    
-        <p>Characteristics:</p>
-        <ul>
-            <li>Growth if b > 1</li>
-            <li>Decay if 0 < b < 1</li>
-            <li>Never touches the x-axis</li>
-        </ul>
-    
-        <hr>
-    
-        <h1>Cubic Functions</h1>
-        <p>A <strong>cubic function</strong> has an S-shaped curve. Its equation is:</p>
-    
-        <p>
-            <math>
-                <mrow>
-                    <mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mi>bx</mi><mo>+</mo><mi>c</mi>
-                </mrow>
-            </math>
-        </p>
-    
-        <p>Characteristics:</p>
-        <ul>
-            <li>Can increase, decrease, then increase again</li>
-            <li>Has inflection point</li>
-            <li>Not symmetric</li>
-        </ul>
-    
-        <hr>
-    
-        <p>Let's do a quick quiz for this:</p>
-    
-        <div class="lesson-quiz">
-            <div class="next-btn">Next page</div>
-    
-            <div class="quiz-page current">
-                <div class="all-flex">
-                    Which function type forms a straight line?
-                    <div class="answer-element" answer="Linear function">Tap to reveal</div>
-                </div>
+
+    <h3>Example 2: A Classic Extraneous Case</h3>
+    <p>Solve the equation: </p>
+    $$ x = \sqrt{x + 12} $$
+
+    <p><strong>Step 1: Eliminate the radical.</strong> The radical is already isolated, so we square both sides:</p>
+    $$ x^2 = (\sqrt{x + 12})^2 \Rightarrow x^2 = x + 12 $$
+
+    <p><strong>Step 2: Set the quadratic to zero and factor.</strong></p>
+    $$ x^2 - x - 12 = 0 $$
+    $$ (x - 4)(x + 3) = 0 $$
+    <p>This yields two potential solutions: $x = 4$ and $x = -3$.</p>
+
+    <p><strong>Step 3: Test both solutions in the original equation.</strong></p>
+    <ul>
+        <li><strong>Testing $x = 4$:</strong> 
+            $$ 4 = \sqrt{4 + 12} \Rightarrow 4 = \sqrt{16} \Rightarrow 4 = 4 \quad \text{(Valid Solution!)} $$
+        </li>
+        <li><strong>Testing $x = -3$:</strong> 
+            $$ -3 = \sqrt{-3 + 12} \Rightarrow -3 = \sqrt{9} \Rightarrow -3 = 3 \quad \text{(False! Extraneous Solution)} $$
+        </li>
+    </ul>
+    <p>Thus, the only real solution is $x = 4$. The value $x = -3$ is discarded.</p>
+</div>
+
+<!-- PAGE 4 — EQUATIONS WITH RATIONAL EXPONENTS -->
+<div class="page">
+    <h1>Equations with Rational Exponents</h1>
+    <p>Since rational exponents are just another way to write radicals, we solve them using the exact same logic. Our target is to raise both sides of the equation to the **reciprocal power** of the exponent to cancel it out.</p>
+
+    <h3>Reciprocal Power Rule</h3>
+    $$ (x^{\frac{m}{n}})^{\frac{n}{m}} = x^1 = x $$
+
+    <p><strong>Crucial Rule for Even Numerators:</strong> If the numerator $m$ of the rational exponent is an <strong>even</strong> integer, raising both sides to the reciprocal power will require introducing a **plus-or-minus** sign ($\pm$) because of the even root rule.</p>
+
+    <h3>Example 3: Solving with Fractional Exponents</h3>
+    <p>Solve the following equation:</p>
+    $$ 2x^{\frac{3}{2}} - 5 = 11 $$
+
+    <p><strong>Step 1: Isolate the exponential expression.</strong> Add $5$ and divide by $2$:</p>
+    $$ 2x^{\frac{3}{2}} = 16 \Rightarrow x^{\frac{3}{2}} = 8 $$
+
+    <p><strong>Step 2: Raise both sides to the reciprocal power.</strong> The reciprocal of $\frac{3}{2}$ is $\frac{2}{3}$:</p>
+    $$ (x^{\frac{3}{2}})^{\frac{2}{3}} = 8^{\frac{2}{3}} $$
+    $$ x = (\sqrt[3]{8})^2 $$
+    $$ x = (2)^2 \Rightarrow x = 4 $$
+
+    <p><strong>Step 3: Check.</strong> Plug $4$ into the original equation:</p>
+    $$ 2(4)^{\frac{3}{2}} - 5 = 2(2)^3 - 5 = 2(8) - 5 = 16 - 5 = 11 \quad \text{(Valid!)} $$
+</div>
+
+<!-- PAGE 5 — QUICK PRACTICE (UI QUIZ BOXES) -->
+<div class="page">
+    <h1>Quick Practice</h1>
+
+    <div class="lesson-quiz">
+        <div class="next-btn">Next question</div>
+
+        <div class="quiz-page current">
+            <div class="all-flex">
+                What is the first step you should take when solving: $2\sqrt{x - 1} + 3 = 11$?
+                <div class="answer-element" answer="Isolate the radical by subtracting 3 and dividing by 2 to get the square root of x - 1 equal to 4.">Tap to reveal</div>
             </div>
-    
-            <div class="quiz-page">
-                <div class="all-flex">
-                    Which function forms a parabola?
-                    <div class="answer-element" answer="Quadratic function">Tap to reveal</div>
-                </div>
+        </div>
+
+        <div class="quiz-page">
+            <div class="all-flex">
+                Under what condition must you check for extraneous solutions?
+                <div class="answer-element" answer="Always, but especially whenever you raise both sides of an equation to an even power (like squaring).">Tap to reveal</div>
             </div>
-    
-            <div class="quiz-page">
-                <div class="all-flex">
-                    Which function forms a V-shape?
-                    <div class="answer-element" answer="Absolute value function">Tap to reveal</div>
-                </div>
+        </div>
+
+        <div class="quiz-page">
+            <div class="all-flex">
+                Solve for x: $\sqrt{2x + 3} = 5$
+                <div class="answer-element" answer="x = 11 (Square both sides: 2x + 3 = 25, then solve for x).">Tap to reveal</div>
             </div>
-    
-            <div class="quiz-page">
-                <div class="all-flex">
-                    Which function grows or decays rapidly?
-                    <div class="answer-element" answer="Exponential function">Tap to reveal</div>
-                </div>
+        </div>
+
+        <div class="quiz-page">
+            <div class="all-flex">
+                Identify the extraneous solution of the equation: $x = \sqrt{2x + 8}$.
+                <div class="answer-element" answer="x = -2 is extraneous (Squaring yields x^2 - 2x - 8 = 0, giving x = 4 and x = -2. Testing -2 yields -2 = 2, which is false).">Tap to reveal</div>
             </div>
-    
-            <div class="quiz-page">
-                <div class="all-flex">
-                    Which function has an S-shaped curve?
-                    <div class="answer-element" answer="Cubic function">Tap to reveal</div>
-                </div>
+        </div>
+
+        <div class="quiz-page">
+            <div class="all-flex">
+                What is the real solution to: $\sqrt{x + 2} = -5$?
+                <div class="answer-element" answer="No real solution. A principal square root cannot result in a negative number in the real number system.">Tap to reveal</div>
             </div>
         </div>
     </div>
-</html>
+</div>
