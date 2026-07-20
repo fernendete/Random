@@ -1,62 +1,75 @@
 <div class="page current">
-    <h1>1.08 — Polynomial Operations: Part 1</h1>
-    <h3>Definición y Grado</h3>
-    <p>Un polinomio es una expresión algebraica compuesta por términos de la forma <math><mrow><mi>a</mi><msup><mi>x</mi><mi>n</mi></msup></mrow></math>, donde <math><mi>n</mi></math> es un número entero no negativo. El <strong>grado</strong> del polinomio es el exponente más alto de la variable.</p>
-    <p>Ejemplo: <math><mrow><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>-</mo><mn>1</mn></mrow></math> es de grado 3 (cúbico).</p>
+    <h1>Definición y Grado</h1>
+    <p>Un polinomio es una expresión algebraica compuesta por términos de la forma <math><mrow><mi>a</mi><msup><mi>x</mi><mi>n</mi></msup></mrow></math>, donde <math><mi>n</mi></math> es un número entero no negativo. El <strong>grado</strong> del polinomio se determina por el exponente más alto de la variable.</p>
+    <p>Ejemplo: <math><mrow><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>-</mo><mn>1</mn></mrow></math> es de grado 3 (polinomio cúbico).</p>
 </div>
 
 <div class="page">
-    <h1>1.08 — Polynomial Operations: Part 2</h1>
-    <h3>Suma y Resta: Agrupación de Términos</h3>
-    <p>Para sumar o restar polinomios, solo puedes combinar <strong>términos semejantes</strong> (aquellos que tienen exactamente la misma variable y exponente)[cite: 2].</p>
-    <p><strong>Truco importante:</strong> En la resta, distribuye el signo menos a todos los términos del segundo polinomio antes de combinar. ¡Muchos errores ocurren aquí por no cambiar los signos!</p>
+    <h1>Suma y Resta</h1>
+    <p>Para sumar o restar polinomios, solo puedes combinar <strong>términos semejantes</strong> (aquellos que tienen exactamente la misma variable elevada al mismo exponente).</p>
+    <p><strong>El error clásico en la resta:</strong> Si tienes <math><mrow><mo>(</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo>)</mo><mo>-</mo><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo></mrow></math>, debes distribuir el signo negativo primero: <math><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo>-</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></math>. Esto da <math><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn></mrow></math>.</p>
     <div class="lesson-quiz">
         <div class="next-btn">Siguiente</div>
         <div class="quiz-page current">
             <div class="all-flex">
-                Resta <math><mrow><mo>(</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo>)</mo><mo>-</mo><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo></mrow></math>
-                <div class="answer-element" answer="2x^2 + 4">Toca para revelar</div>
+                Resta <math><mrow><mo>(</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>)</mo><mo>-</mo><mo>(</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>)</mo></mrow></math>
+                <div class="answer-element" answer="2x^2 + 6">Toca para revelar</div>
             </div>
         </div>
     </div>
 </div>
 
 <div class="page">
-    <h1>1.08 — Polynomial Operations: Part 3</h1>
-    <h3>Multiplicación: Ley Distributiva Extensiva</h3>
-    <p>Al multiplicar polinomios, cada término del primer polinomio debe multiplicarse por cada término del segundo. Si multiplicas dos binomios, usamos FOIL, pero si tienes trinomios, es mejor usar una tabla o distribución sistemática.</p>
+    <h1>Multiplicación de Polinomios</h1>
+    <p>La multiplicación sigue la ley distributiva extensiva. Cada término del primer polinomio debe multiplicarse por cada término del segundo.</p>
     <p>Ejemplo: <math><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo></mrow></math></p>
-    <p>Multiplica <math><mi>x</mi></math> por el trinomio: <math><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi></mrow></math></p>
-    <p>Multiplica <math><mn>2</mn></math> por el trinomio: <math><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>8</mn></mrow></math></p>
-    <p>Suma los resultados: <math><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>8</mn></mrow></math>.</p>
+    <p>1. <math><mrow><mi>x</mi><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi></mrow></math></p>
+    <p>2. <math><mrow><mn>2</mn><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>8</mn></mrow></math></p>
+    <p>Al sumar todo: <math><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>8</mn></mrow></math>.</p>
 </div>
 
 <div class="page">
-    <h1>1.08 — Polynomial Operations: Part 4</h1>
-    <h3>División Sintética: ¿Cuándo usarla?</h3>
-    <p>La división sintética es un método abreviado para dividir un polinomio por un binomio de la forma <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mi>k</mi><mo>)</mo></mrow></math>. Solo usamos los coeficientes.</p>
-    <p>Es mucho más rápido que la división larga tradicional y reduce el riesgo de errores con las variables[cite: 2].</p>
+    <h1>División Sintética</h1>
+    <p>Es un método abreviado para dividir polinomios entre binomios de la forma <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mi>k</mi><mo>)</mo></mrow></math>. Solo usamos los coeficientes.</p>
+    <p><strong>Ejemplo:</strong> <math><mrow><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>/</mo><mo>(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo></mrow></math>. Aquí <math><mrow><mi>k</mi><mo>=</mo><mn>2</mn></mrow></math>.</p>
     <div class="lesson-quiz">
         <div class="next-btn">Siguiente</div>
         <div class="quiz-page current">
             <div class="all-flex">
-                En <math><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>-</mo><mn>2</mn></mrow></mfrac></math>, ¿qué número colocas fuera de la "casita"?
-                <div class="answer-element" answer="2">Toca para revelar</div>
+                ¿Qué valor de <math><mi>k</mi></math> usarías para <math><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></math>?
+                <div class="answer-element" answer="-3">Toca para revelar</div>
             </div>
         </div>
     </div>
 </div>
 
 <div class="page">
-    <h1>1.08 — Polynomial Operations: Part 5</h1>
-    <h3>Teorema del Residuo</h3>
-    <p>Este teorema dice que si divides un polinomio <math><mrow><mi>P</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></math> entre <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mi>k</mi><mo>)</mo></mrow></math>, el residuo es igual a <math><mrow><mi>P</mi><mo>(</mo><mi>k</mi><mo>)</mo></mrow></math>.</p>
-    <p>Esto es increíblemente útil para evaluar polinomios sin tener que hacer toda la división o sustituir valores grandes.</p>
+    <h1>Teorema del Residuo</h1>
+    <p>Si divides un polinomio <math><mrow><mi>P</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></math> entre <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mi>k</mi><mo>)</mo></mrow></math>, el residuo es igual a evaluar <math><mrow><mi>P</mi><mo>(</mo><mi>k</mi><mo>)</mo></mrow></math>.</p>
+    <p><strong>Ejemplo:</strong> Residuo de <math><mrow><mi>P</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></math> entre <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow></math>.</p>
+    <p><math><mrow><mi>P</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo>=</mo><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo>(</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>5</mn><mo>=</mo><mn>9</mn></mrow></math>. El residuo es 9.</p>
+    <div class="lesson-quiz">
+        <div class="next-btn">Siguiente</div>
+        <div class="quiz-page current">
+            <div class="all-flex">
+                Si <math><mrow><mi>P</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>0</mn></mrow></math>, ¿es <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo></mrow></math> un factor?
+                <div class="answer-element" answer="Sí">Toca para revelar</div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="page">
-    <h1>1.08 — Polynomial Operations: Part 6</h1>
-    <h3>División Larga vs. Sintética</h3>
-    <p>Recuerda: si el divisor no es lineal (ejemplo: <math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></math>), no puedes usar división sintética; debes recurrir a la división larga polinómica, similar a la división larga numérica.</p>
-    <p>Mantén siempre los términos en orden descendente de grado y coloca un 0 como marcador de posición si falta alguna potencia (ejemplo: si falta <math><msup><mi>x</mi><mn>2</mn></msup></math>, escribe <math><mrow><mn>0</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>).</p>
+    <h1>División Larga Polinómica</h1>
+    <p>Si el divisor no es lineal (ej. <math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></math>), no puedes usar división sintética. Debes usar división larga.</p>
+    <p><strong>Regla crucial:</strong> Si falta un término en el polinomio, usa 0 como marcador. Para <math><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></mrow></math>, escribe <math><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>0</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>0</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>.</p>
+    <div class="lesson-quiz">
+        <div class="next-btn">Siguiente</div>
+        <div class="quiz-page current">
+            <div class="all-flex">
+                ¿Qué falta en <math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>9</mn></mrow></math>?
+                <div class="answer-element" answer="0x">Toca para revelar</div>
+            </div>
+        </div>
+    </div>
 </div>
