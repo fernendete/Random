@@ -1,0 +1,77 @@
+{
+    "title": "1.04 - Mid-Module Check",
+    "exam": true,
+    "totalpoints": 10,
+    "questions": [
+        {
+            "worth": 1,
+            "title": "Simplify <math><mrow><msup><mn>8</mn><mrow><mn>1</mn><mo>/</mo><mn>3</mn></mrow></msup></mrow></math>",
+            "choices": ["2", "4", "24", "8"],
+            "correct": 0,
+            "explain": "The cube root of 8 is 2."
+        },
+        {
+            "worth": 1,
+            "title": "Rewrite <math><mrow><msqrt><msup><mi>x</mi><mn>5</mn></msup></msqrt></mrow></math> as an exponent",
+            "choices": ["<math><mrow><msup><mi>x</mi><mrow><mn>1</mn><mo>/</mo><mn>5</mn></mrow></msup></mrow></math>", "<math><mrow><msup><mi>x</mi><mrow><mn>5</mn><mo>/</mo><mn>2</mn></mrow></msup></mrow></math>", "<math><mrow><msup><mi>x</mi><mrow><mn>2</mn><mo>/</mo><mn>5</mn></mrow></msup></mrow></math>", "<math><mrow><msup><mi>x</mi><mn>5</mn></msup></mrow></math>"],
+            "correct": 1,
+            "explain": "The power goes in the numerator, the index of the root in the denominator."
+        },
+        {
+            "worth": 1,
+            "title": "Simplify <math><mrow><msup><mrow><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo></mrow><mrow><mn>3</mn><mo>/</mo><mn>2</mn></mrow></msup></mrow></math>",
+            "choices": ["<math><mrow><msup><mi>x</mi><mn>3</mn></msup></mrow></math>", "<math><mrow><msup><mi>x</mi><mrow><mn>6</mn><mo>/</mo><mn>2</mn></mrow></msup></mrow></math>", "<math><mrow><msup><mi>x</mi><mrow><mn>5</mn><mo>/</mo><mn>2</mn></mrow></msup></mrow></math>", "<math><mrow><msup><mi>x</mi><mn>6</mn></msup></mrow></math>"],
+            "correct": 0,
+            "explain": "Multiply the exponents: <math><mrow><mn>2</mn><mo>×</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>=</mo><mn>3</mn></mrow></math>."
+        },
+        {
+            "worth": 1,
+            "title": "Solve <math><mrow><msqrt><mi>x</mi><mo>+</mo><mn>1</mn></msqrt><mo>=</mo><mn>4</mn></mrow></math>",
+            "choices": ["3", "15", "16", "17"],
+            "correct": 1,
+            "explain": "<math><mrow><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>16</mn></mrow></math>, so <math><mrow><mi>x</mi><mo>=</mo><mn>15</mn></mrow></math>."
+        },
+        {
+            "worth": 1,
+            "title": "Which property is used for <math><mrow><msup><mi>x</mi><mi>a</mi></msup><mo>·</mo><msup><mi>x</mi><mi>b</mi></msup></mrow></math>?",
+            "choices": ["Add exponents", "Multiply exponents", "Subtract exponents", "Divide exponents"],
+            "correct": 0,
+            "explain": "When multiplying same bases, add the exponents."
+        },
+        {
+            "worth": 1,
+            "title": "What is the index of <math><mrow><mroot><mi>x</mi><mn>5</mn></mroot></mrow></math>?",
+            "choices": ["1", "5", "x", "0"],
+            "correct": 1,
+            "explain": "The index is the small number indicating the root type."
+        },
+        {
+            "worth": 1,
+            "title": "Simplify <math><mrow><msup><mn>16</mn><mrow><mn>3</mn><mo>/</mo><mn>4</mn></mrow></msup></mrow></math>",
+            "choices": ["2", "4", "6", "8"],
+            "correct": 3,
+            "explain": "The 4th root of 16 is 2, and <math><mrow><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math>."
+        },
+        {
+            "worth": 1,
+            "title": "Solve <math><mrow><mroot><mi>x</mi><mn>3</mn></mroot><mo>=</mo><mn>3</mn></mrow></math>",
+            "choices": ["6", "9", "27", "81"],
+            "correct": 2,
+            "explain": "<math><mrow><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>27</mn></mrow></math>."
+        },
+        {
+            "worth": 1,
+            "title": "Is <math><mrow><mi>x</mi><mo>=</mo><mo>-</mo><mn>4</mn></mrow></math> a solution to <math><mrow><msqrt><mi>x</mi></msqrt><mo>=</mo><mn>2</mn></mrow></math>?",
+            "choices": ["Yes", "No"],
+            "correct": 1,
+            "explain": "The square root of a negative number is not real, and it doesn't equal 2."
+        },
+        {
+            "worth": 1,
+            "title": "Simplify <math><mrow><msup><mi>x</mi><mn>0</mn></msup></mrow></math> (where <math><mrow><mi>x</mi><mo>≠</mo><mn>0</mn></mrow></math>)",
+            "choices": ["0", "1", "x", "undefined"],
+            "correct": 1,
+            "explain": "Any non-zero base raised to 0 is 1."
+        }
+    ]
+}
