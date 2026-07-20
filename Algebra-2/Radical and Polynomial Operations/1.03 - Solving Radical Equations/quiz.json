@@ -1,127 +1,77 @@
 {
-"title": "1.03 - Solving Radical Equations",
-"exam": false,
-"totalpoints": 10,
-"questions": [
-{
-"worth": 1,
-"title": "What is the first essential step in solving any radical equation?",
-"choices": [
-"Square both sides of the equation immediately",
-"Isolate the radical term on one side of the equation",
-"Factor the expressions inside the radicand",
-"Multiply the entire equation by the index of the radical"
-],
-"correct": 1,
-"explain": "To solve a radical equation, you must first isolate the radical expression on one side of the equation before applying any powers to eliminate the root."
-},
-{
-"worth": 1,
-"title": "Solve the radical equation: x-3=5",
-"choices": [
-"x=8",
-"x=22",
-"x=28",
-"No real solution"
-],
-"correct": 2,
-"explain": "First, square both sides to eliminate the radical: (x-3)2=52⇒x-3=25. Adding 3 to both sides yields x=28. Checking: 28-3=25=5."
-},
-{
-"worth": 1,
-"title": "Why can extraneous solutions occur when solving radical equations?",
-"choices": [
-"Because of rounding decimals to integers",
-"Because squaring or raising both sides of an equation to an even power can introduce false solutions",
-"Because odd roots are undefined for negative numbers in the real number system",
-"Because radical equations always result in imaginary coordinates"
-],
-"correct": 1,
-"explain": "Raising an equation to an even power eliminates the negative sign (since both positive and negative values yield positive results when squared). This creates a derived equation with more potential solutions than the original."
-},
-{
-"worth": 1,
-"title": "Solve the equation x=x+6 and identify any extraneous solutions.",
-"choices": [
-"x=3 is valid; x=-2 is extraneous",
-"x=-2 is valid; x=3 is extraneous",
-"Both x=3 and x=-2 are valid solutions",
-"There are no real solutions to this equation"
-],
-"correct": 0,
-"explain": "Squaring both sides gives x2=x+6⇒x2-x-6=0⇒(x-3)(x+2)=0</. Testing x=3 yields 3=9 (valid). Testing x=-2 yields -2=4 (false, since the principal square root of 4 is positive 2), making -2 extraneous."
-},
-{
-"worth": 1,
-"title": "Solve the equation containing two radicals: 3x-5-x+3=0",
-"choices": [
-"x=1",
-"x=4",
-"x=8",
-"No real solution"
-],
-"correct": 1,
-"explain": "Isolate the radicals: 3x-5=x+3. Square both sides: 3x-5=x+3. Subtract x and add 5 to both sides: 2x=8⇒x=4. Checking: 7-7=0."
-},
-{
-"worth": 1,
-"title": "Solve the multi-step radical equation: 2x+5-4=6",
-"choices": [
-"x=20",
-"x=30",
-"x=5",
-"x=0"
-],
-"correct": 0,
-"explain": "First, isolate the radical: 2x+5=10⇒x+5=5. Square both sides: x+5=25. Solving for x gives x=20. Checking: 225-4=10-4=6."
-},
-{
-"worth": 1,
-"title": "Solve the rational exponent equation: (x-1)32=8",
-"choices": [
-"x=5",
-"x=3",
-"x=17",
-"x=9"
-],
-"correct": 0,
-"explain": "Raise both sides to the reciprocal power of 23: x-1=823. Since 823=(83)2=22=4, we have x-1=4⇒x=5."
-},
-{
-"worth": 1,
-"title": "Solve the equation: 2x+1=x-7. Identify valid and extraneous solutions.",
-"choices": [
-"x=4 and x=12 are both valid solutions",
-"x=4 is valid; x=12 is an extraneous solution",
-"x=12 is valid; x=4 is an extraneous solution",
-"This equation has no real solutions"
-],
-"correct": 2,
-"explain": "Square both sides: 2x+1=(x-7)2⇒2x+1=x2-14x+49⇒x2-16x+48=0⇒(x-12)(x-4)=0</. Check x=12: 25=5 (valid). Check x=4: 9=4-7⇒3=-3 (false, so x=4 is extraneous)."
-},
-{
-"worth": 1,
-"title": "Determine the solution set for the equation: x+3=-4 in the real number system.",
-"choices": [
-"x=13",
-"x=-19",
-"x=1",
-"No real solution"
-],
-"correct": 3,
-"explain": "In the real number system, a principal square root u is defined to be non-negative. Therefore, x+3 can never equal a negative number like -4."
-},
-{
-"worth": 1,
-"title": "Solve the cubic radical equation: 2x-53=3",
-"choices": [
-"x=16",
-"x=7",
-"x=14",
-"x=32"
-],
-"correct": 0,
-"explain": "Cube both sides to eliminate the cube root: (2x-53)3=33⇒2x-5=27. Add 5 to both sides: 2x=32. Divide by 2: x=16. Checking: 32-53=3."
-}
-]
+    "title": "1.03 - Solving Quadratic Equations",
+    "exam": false,
+    "totalpoints": 10,
+    "questions": [
+        {
+            "worth": 1,
+            "title": "What is the standard form of a quadratic equation?",
+            "choices": ["ax+b=0", "<math><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></mrow></math>", "y=mx+b", "ax³=0"],
+            "correct": 1,
+            "explain": "The standard form is <math><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></mrow></math>."
+        },
+        {
+            "worth": 1,
+            "title": "Solve <math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn><mo>=</mo><mn>0</mn></mrow></math>",
+            "choices": ["4", "-4", "<math><mrow><mo>±</mo><mn>4</mn></mrow></math>", "8"],
+            "correct": 2,
+            "explain": "Moving 16 to the right gives <math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>16</mn></mrow></math>, so x is <math><mrow><mo>±</mo><mn>4</mn></mrow></math>."
+        },
+        {
+            "worth": 1,
+            "title": "What is the discriminant formula?",
+            "choices": ["<math><mrow><mi>b</mi><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></math>", "<math><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></math>", "<math><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></math>", "<math><mrow><mn>2</mn><mi>a</mi></mrow></math>"],
+            "correct": 1,
+            "explain": "The discriminant <math><mrow><mi>D</mi><mo>=</mo><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></math>."
+        },
+        {
+            "worth": 1,
+            "title": "If <math><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi><mo>&lt;</mo><mn>0</mn></mrow></math>, how many real solutions?",
+            "choices": ["0", "1", "2", "Infinite"],
+            "correct": 0,
+            "explain": "A negative discriminant means no real roots."
+        },
+        {
+            "worth": 1,
+            "title": "Factor <math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow></math>",
+            "choices": ["(x+1)(x+6)", "(x+2)(x+3)", "(x-2)(x-3)", "(x+5)(x+6)"],
+            "correct": 1,
+            "explain": "Factors of 6 that add to 5 are 2 and 3."
+        },
+        {
+            "worth": 1,
+            "title": "Solve <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>0</mn></mrow></math>",
+            "choices": ["1, -4", "-1, 4", "1, 4", "-1, -4"],
+            "correct": 0,
+            "explain": "Setting factors to 0 yields <math><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math> and <math><mrow><mi>x</mi><mo>=</mo><mo>-</mo><mn>4</mn></mrow></math>."
+        },
+        {
+            "worth": 1,
+            "title": "What is the quadratic formula?",
+            "choices": ["<math><mrow><mfrac><mrow><mo>-</mo><mi>b</mi><mo>±</mo><msqrt><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></msqrt></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow></math>", "<math><mrow><mfrac><mrow><mo>-</mo><mi>b</mi><mo>±</mo><msqrt><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>a</mi><mi>c</mi></msqrt></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow></math>", "Not listed", "None"],
+            "correct": 0,
+            "explain": "Standard formula uses subtraction in the discriminant."
+        },
+        {
+            "worth": 1,
+            "title": "Solve for x in <math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn></mrow></math>",
+            "choices": ["1", "0", "±1", "Undefined"],
+            "correct": 1,
+            "explain": "The only solution is 0."
+        },
+        {
+            "worth": 1,
+            "title": "For <math><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow></math>, what is a?",
+            "choices": ["2", "1", "-1", "3"],
+            "correct": 3,
+            "explain": "The coefficient of <math><mrow><msup><mi>x</mi><mn>2</mn></msup></mrow></math> is 3."
+        },
+        {
+            "worth": 1,
+            "title": "When is a quadratic not a function?",
+            "choices": ["Always", "Never", "If it's a parabola", "None"],
+            "correct": 1,
+            "explain": "Quadratic equations represent functions."
+        }
+    ]
 }
