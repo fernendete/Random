@@ -1,0 +1,127 @@
+{
+    "title": "1.01 - Rational Exponents",
+    "exam": false,
+    "totalpoints": 10,
+    "questions": [
+        {
+            "worth": 1,
+            "title": "In the rational exponent expression x^(a/b), what does the denominator 'b' represent?",
+            "choices": [
+                "The power or exponent value",
+                "The base of the expression",
+                "The index of the radical root",
+                "The coefficients multiplier"
+            ],
+            "correct": 2,
+            "explain": "The denominator of a fractional exponent always represents the root index, while the numerator represents the power."
+        },
+        {
+            "worth": 1,
+            "title": "Convert the radical expression ⁵√y³ (fifth root of y cubed) to its rational exponent form.",
+            "choices": [
+                "y^(5/3)",
+                "y^(3/5)",
+                "y^15",
+                "y^(-3/5)"
+            ],
+            "correct": 1,
+            "explain": "According to the root‑to‑exponent rules, the power (3) becomes the numerator, and the index (5) becomes the denominator, giving y^(3/5)."
+        },
+        {
+            "worth": 1,
+            "title": "How is the expression x^(1/4) represented in radical form?",
+            "choices": [
+                "The fourth root of x",
+                "The square root of x cubed",
+                "The fourth power of x",
+                "The reciprocal of x to the fourth power"
+            ],
+            "correct": 0,
+            "explain": "An exponent of 1/4 means the power is 1 and the root index is 4, which is written as the fourth root of x."
+        },
+        {
+            "worth": 1,
+            "title": "Evaluate the numerical expression: 27^(2/3).",
+            "choices": [
+                "18",
+                "9",
+                "3",
+                "81"
+            ],
+            "correct": 1,
+            "explain": "First take the cube root of 27 (which is 3), then square that result: 3² = 9."
+        },
+        {
+            "worth": 1,
+            "title": "Evaluate the numerical expression: 16^(3/4).",
+            "choices": [
+                "8",
+                "12",
+                "64",
+                "4"
+            ],
+            "correct": 0,
+            "explain": "First take the fourth root of 16 (which is 2), then raise that result to the third power: 2³ = 8."
+        },
+        {
+            "worth": 1,
+            "title": "Evaluate the expression: (-32)^(3/5).",
+            "choices": [
+                "-8",
+                "8",
+                "-6",
+                "Undefined in real numbers"
+            ],
+            "correct": 0,
+            "explain": "First take the fifth root of -32 (which is -2 since (-2)⁵ = -32), then raise -2 to the third power: (-2)³ = -8."
+        },
+        {
+            "worth": 1,
+            "title": "Evaluate the expression: (-16)^(1/2) in the real number system.",
+            "choices": [
+                "-4",
+                "4",
+                "-8",
+                "Undefined (Not a real number)"
+            ],
+            "correct": 3,
+            "explain": "An exponent of 1/2 represents a square root. In the real number system, the square root of a negative number is undefined."
+        },
+        {
+            "worth": 1,
+            "title": "Evaluate the negative rational exponent expression: 8^(-4/3).",
+            "choices": [
+                "-16",
+                "1/16",
+                "1/12",
+                "-1/16"
+            ],
+            "correct": 1,
+            "explain": "The negative exponent tells us to take the reciprocal: 1 / [8^(4/3)]. Since the cube root of 8 is 2, and 2⁴ = 16, the result is 1/16."
+        },
+        {
+            "worth": 1,
+            "title": "Which of the following radical representations is equivalent to the exponential expression x^(1/2)?",
+            "choices": [
+                "√x (Square root of x)",
+                "x² (x squared)",
+                "1/x²",
+                "x"
+            ],
+            "correct": 0,
+            "explain": "A rational exponent of 1/2 represents the principal square root of the base, written as √x."
+        },
+        {
+            "worth": 1,
+            "title": "Rewrite the radical expression ³√a⁷ (cube root of a to the seventh power) in exponential form.",
+            "choices": [
+                "a^(7/3)",
+                "a^(3/7)",
+                "a^(-7/3)",
+                "a^21"
+            ],
+            "correct": 0,
+            "explain": "The power inside is 7 (numerator) and the root index outside is 3 (denominator), which translates directly to a^(7/3)."
+        }
+    ]
+}
