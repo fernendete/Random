@@ -1,0 +1,127 @@
+{
+    "title": "2.02 - Factoring by Grouping",
+    "exam": false,
+    "totalpoints": 10,
+    "questions": [
+        {
+            "worth": 1,
+            "title": "¿Cuándo se debe utilizar el método de factorización por agrupación?",
+            "choices": [
+                "Cuando hay exactamente dos términos",
+                "Cuando hay cuatro o más términos sin un GCF común general",
+                "Solo cuando hay fracciones",
+                "Cuando el polinomio es de grado uno"
+            ],
+            "correct": 1,
+            "explain": "La agrupación está diseñada específicamente para polinomios de cuatro o más términos donde no todos comparten un factor común."
+        },
+        {
+            "worth": 1,
+            "title": "Factoriza por agrupación la expresión <math><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>12</mn></mrow></math>",
+            "choices": [
+                "(x^2+3)(x+4)",
+                "(x^2+4)(x+3)",
+                "(x+3)(x+4)",
+                "(x^2+3x)(x+4)"
+            ],
+            "correct": 0,
+            "explain": "Agrupando (x^3+4x^2) sacamos x^2(x+4); de (3x+12) sacamos 3(x+4). Queda (x^2+3)(x+4)."
+        },
+        {
+            "worth": 1,
+            "title": "Al agrupar los términos de <math><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>12</mn></mrow></math>, ¿cuál es el GCF del segundo grupo <math><mrow><mo>(</mo><mo>-</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>12</mn><mo>)</mo></mrow></math>?",
+            "choices": [
+                "4",
+                "-4",
+                "2",
+                "-2"
+            ],
+            "correct": 1,
+            "explain": "Para que el binomio resultante coincida con el primer grupo, debemos factorizar un -4, obteniendo -4(2x - 3)."
+        },
+        {
+            "worth": 1,
+            "title": "Resuelve la factorización completa de <math><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>10</mn></mrow></math>",
+            "choices": [
+                "(x^2-5)(x-2)",
+                "(x^2+5)(x-2)",
+                "(x^2-2)(x-5)",
+                "(x-5)(x+2)"
+            ],
+            "correct": 0,
+            "explain": "Agrupamos x^2(x-2) - 5(x-2). Al unir los términos comunes queda (x^2-5)(x-2)."
+        },
+        {
+            "worth": 1,
+            "title": "¿Qué condición deben cumplir los binomios resultantes de cada grupo para que la factorización por agrupación sea exitosa?",
+            "choices": [
+                "Deben ser completamente diferentes",
+                "Deben ser exactamente iguales",
+                "Deben sumar cero",
+                "Deben ser fracciones"
+            ],
+            "correct": 1,
+            "explain": "Los binomios en ambos grupos deben coincidir exactamente (por ejemplo, (x+4) y (x+4)) para poder extraerlos como factor común."
+        },
+        {
+            "worth": 1,
+            "title": "Factoriza la expresión <math><mrow><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>15</mn><mi>x</mi><mo>+</mo><mn>10</mn></mrow></math>",
+            "choices": [
+                "(3x+2)(x^2+5)",
+                "(3x^2+2)(x+5)",
+                "(x^2+5)(3x+2)",
+                "No se puede factorizar"
+            ],
+            "correct": 2,
+            "explain": "Agrupamos x^2(3x+2) + 5(3x+2). El resultado final es (x^2+5)(3x+2)."
+        },
+        {
+            "worth": 1,
+            "title": "Si al agrupar los binomios obtienes <math><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo></mrow></math> en un lado y <math><mrow><mo>(</mo><mo>-</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></math> en el otro, ¿qué debes hacer?",
+            "choices": [
+                "Dejarlo así",
+                "Cambiar el signo del GCF sacado para invertir los signos del segundo binomio",
+                "Multiplicar por cero",
+                "Eliminar el ejercicio"
+            ],
+            "correct": 1,
+            "explain": "Debes cambiar el signo del factor común que extrajiste para que los signos dentro del paréntesis coincidan exactamente."
+        },
+        {
+            "worth": 1,
+            "title": "Encuentra la factorización de <math><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>10</mn></mrow></math>",
+            "choices": [
+                "(x^2-2)(x+5)",
+                "(x^2+2)(x-5)",
+                "(x^2-5)(x+2)",
+                "(x+2)(x+5)"
+            ],
+            "correct": 0,
+            "explain": "Agrupamos x^2(x+5) - 2(x+5), lo que resulta en (x^2-2)(x+5)."
+        },
+        {
+            "worth": 1,
+            "title": "Al aplicar agrupación en <math><mrow><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>x</mn><mo>-</mo><mn>2</mn></mrow></math>, ¿cuál es el factor común que se extrae del primer grupo?",
+            "choices": [
+                "4x",
+                "4x^2",
+                "2x^2",
+                "x^2"
+            ],
+            "correct": 1,
+            "explain": "De 4x^3 - 8x^2 el mayor factor común es 4x^2, dejando dentro del paréntesis (x - 2)."
+        },
+        {
+            "worth": 1,
+            "title": "¿Cuál es el último paso algebraico al factorizar por agrupación?",
+            "choices": [
+                "Sumar todos los coeficientes",
+                "Expresar el producto del binomio común y la suma de los GCFs extraídos",
+                "Dividir entre cero",
+                "Elevar todo al cuadrado"
+            ],
+            "correct": 1,
+            "explain": "El paso final es juntar los factores GCF en un binomio y multiplicarlo por el binomio común que se repitió."
+        }
+    ]
+}
