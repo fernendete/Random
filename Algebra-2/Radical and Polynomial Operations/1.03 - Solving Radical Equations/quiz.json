@@ -1,77 +1,77 @@
 {
-    "title": "1.03 - Solving Quadratic Equations",
+    "title": "1.03 - Solving Radical Equations",
     "exam": false,
     "totalpoints": 10,
     "questions": [
         {
             "worth": 1,
-            "title": "What is the standard form of a quadratic equation?",
-            "choices": ["ax+b=0", "<math><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></mrow></math>", "y=mx+b", "ax³=0"],
-            "correct": 1,
-            "explain": "The standard form is <math><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></mrow></math>."
-        },
-        {
-            "worth": 1,
-            "title": "Solve <math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn><mo>=</mo><mn>0</mn></mrow></math>",
-            "choices": ["4", "-4", "<math><mrow><mo>±</mo><mn>4</mn></mrow></math>", "8"],
+            "title": "What is the first step to solve <math><mrow><msqrt><mi>x</mi><mo>+</mo><mn>2</mn></msqrt><mo>=</mo><mn>3</mn></mrow></math>?",
+            "choices": ["Add 2", "Subtract 3", "Square both sides", "Divide by 3"],
             "correct": 2,
-            "explain": "Moving 16 to the right gives <math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>16</mn></mrow></math>, so x is <math><mrow><mo>±</mo><mn>4</mn></mrow></math>."
+            "explain": "Squaring both sides eliminates the radical."
         },
         {
             "worth": 1,
-            "title": "What is the discriminant formula?",
-            "choices": ["<math><mrow><mi>b</mi><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></math>", "<math><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></math>", "<math><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></math>", "<math><mrow><mn>2</mn><mi>a</mi></mrow></math>"],
+            "title": "Solve <math><mrow><msqrt><mi>x</mi></msqrt><mo>=</mo><mn>7</mn></mrow></math>",
+            "choices": ["7", "14", "49", "0"],
+            "correct": 2,
+            "explain": "Squaring 7 gives 49."
+        },
+        {
+            "worth": 1,
+            "title": "What is an extraneous solution?",
+            "choices": ["A correct answer", "An answer that doesn't work in the original equation", "A decimal", "A negative number"],
             "correct": 1,
-            "explain": "The discriminant <math><mrow><mi>D</mi><mo>=</mo><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></math>."
+            "explain": "Always check your answers to avoid extraneous solutions."
         },
         {
             "worth": 1,
-            "title": "If <math><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi><mo>&lt;</mo><mn>0</mn></mrow></math>, how many real solutions?",
+            "title": "Solve <math><mrow><msqrt><mi>x</mi><mo>-</mo><mn>1</mn></msqrt><mo>=</mo><mn>2</mn></mrow></math>",
+            "choices": ["3", "4", "5", "6"],
+            "correct": 2,
+            "explain": "<math><mrow><mi>x</mi><mo>-</mo><mn>1</mn><mo>=</mo><mn>4</mn></mrow></math>, so <math><mrow><mi>x</mi><mo>=</mo><mn>5</mn></mrow></math>."
+        },
+        {
+            "worth": 1,
+            "title": "How do you undo a cube root?",
+            "choices": ["Square", "Cube", "Multiply by 3", "Divide by 3"],
+            "correct": 1,
+            "explain": "Raising to the power of 3 undoes a cube root."
+        },
+        {
+            "worth": 1,
+            "title": "If <math><mrow><msqrt><mi>x</mi></msqrt><mo>=</mo><mo>-</mo><mn>5</mn></mrow></math>, how many real solutions?",
             "choices": ["0", "1", "2", "Infinite"],
             "correct": 0,
-            "explain": "A negative discriminant means no real roots."
+            "explain": "A principal square root cannot be negative."
         },
         {
             "worth": 1,
-            "title": "Factor <math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow></math>",
-            "choices": ["(x+1)(x+6)", "(x+2)(x+3)", "(x-2)(x-3)", "(x+5)(x+6)"],
+            "title": "Solve <math><mrow><mroot><mi>x</mi><mn>3</mn></mroot><mo>=</mo><mn>2</mn></mrow></math>",
+            "choices": ["4", "6", "8", "16"],
+            "correct": 2,
+            "explain": "<math><mrow><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math>."
+        },
+        {
+            "worth": 1,
+            "title": "Solve <math><mrow><mn>2</mn><msqrt><mi>x</mi></msqrt><mo>=</mo><mn>10</mn></mrow></math>",
+            "choices": ["5", "10", "25", "50"],
+            "correct": 2,
+            "explain": "Divide by 2 to get <math><mrow><msqrt><mi>x</mi></msqrt><mo>=</mo><mn>5</mn></mrow></math>, then square to get 25."
+        },
+        {
+            "worth": 1,
+            "title": "Which operation is the inverse of a square?",
+            "choices": ["Addition", "Subtraction", "Square root", "Multiplication"],
+            "correct": 2,
+            "explain": "Square root is the inverse of squaring."
+        },
+        {
+            "worth": 1,
+            "title": "Can you have an extraneous solution with a cube root?",
+            "choices": ["Yes", "No"],
             "correct": 1,
-            "explain": "Factors of 6 that add to 5 are 2 and 3."
-        },
-        {
-            "worth": 1,
-            "title": "Solve <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>0</mn></mrow></math>",
-            "choices": ["1, -4", "-1, 4", "1, 4", "-1, -4"],
-            "correct": 0,
-            "explain": "Setting factors to 0 yields <math><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math> and <math><mrow><mi>x</mi><mo>=</mo><mo>-</mo><mn>4</mn></mrow></math>."
-        },
-        {
-            "worth": 1,
-            "title": "What is the quadratic formula?",
-            "choices": ["<math><mrow><mfrac><mrow><mo>-</mo><mi>b</mi><mo>±</mo><msqrt><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></msqrt></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow></math>", "<math><mrow><mfrac><mrow><mo>-</mo><mi>b</mi><mo>±</mo><msqrt><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>a</mi><mi>c</mi></msqrt></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow></math>", "Not listed", "None"],
-            "correct": 0,
-            "explain": "Standard formula uses subtraction in the discriminant."
-        },
-        {
-            "worth": 1,
-            "title": "Solve for x in <math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn></mrow></math>",
-            "choices": ["1", "0", "±1", "Undefined"],
-            "correct": 1,
-            "explain": "The only solution is 0."
-        },
-        {
-            "worth": 1,
-            "title": "For <math><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow></math>, what is a?",
-            "choices": ["2", "1", "-1", "3"],
-            "correct": 3,
-            "explain": "The coefficient of <math><mrow><msup><mi>x</mi><mn>2</mn></msup></mrow></math> is 3."
-        },
-        {
-            "worth": 1,
-            "title": "When is a quadratic not a function?",
-            "choices": ["Always", "Never", "If it's a parabola", "None"],
-            "correct": 1,
-            "explain": "Quadratic equations represent functions."
+            "explain": "Extraneous solutions typically appear with even-indexed radicals."
         }
     ]
 }
