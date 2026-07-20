@@ -1,0 +1,77 @@
+{
+    "title": "1.07 - Operations of Complex Numbers",
+    "exam": false,
+    "totalpoints": 10,
+    "questions": [
+        {
+            "worth": 1,
+            "title": "Simplifica <math><mrow><mo>(</mo><mn>6</mn><mo>+</mo><mn>3</mn><mi>i</mi><mo>)</mo><mo>-</mo><mo>(</mo><mn>2</mn><mo>-</mo><mn>4</mn><mi>i</mi><mo>)</mo></mrow></math>",
+            "choices": ["4-i", "4+7i", "8-i", "8+7i"],
+            "correct": 1,
+            "explain": "6-2=4 y 3i-(-4i)=7i."
+        },
+        {
+            "worth": 1,
+            "title": "Calcula <math><mrow><mo>(</mo><mn>2</mn><mo>+</mo><mn>3</mn><mi>i</mi><mo>)</mo><mo>(</mo><mn>4</mn><mo>-</mo><mi>i</mi><mo>)</mo></mrow></math>",
+            "choices": ["8-3i", "11+10i", "5+10i", "11+14i"],
+            "correct": 1,
+            "explain": "8-2i+12i-3i^2 = 8+10i+3 = 11+10i."
+        },
+        {
+            "worth": 1,
+            "title": "Para dividir números complejos, ¿por qué multiplicamos?",
+            "choices": ["Por el recíproco", "Por el conjugado del denominador", "Por i", "Por el cuadrado"],
+            "correct": 1,
+            "explain": "El conjugado elimina la i del denominador."
+        },
+        {
+            "worth": 1,
+            "title": "Simplifica <math><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo><mo>(</mo><mn>1</mn><mo>-</mo><mi>i</mi><mo>)</mo></mrow></math>",
+            "choices": ["0", "1", "2", "1+i"],
+            "correct": 2,
+            "explain": "1-i^2 = 1-(-1) = 2."
+        },
+        {
+            "worth": 1,
+            "title": "Resuelve <math><mrow><mo>(</mo><mo>-</mo><mn>3</mn><mo>+</mo><mi>i</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>4</mn><mo>-</mo><mn>5</mn><mi>i</mi><mo>)</mo></mrow></math>",
+            "choices": ["1-4i", "7-4i", "1+6i", "-7-6i"],
+            "correct": 0,
+            "explain": "-3+4=1 y i-5i=-4i."
+        },
+        {
+            "worth": 1,
+            "title": "Simplifica <math><mrow><msup><mi>i</mi><mn>6</mn></msup></mrow></math>",
+            "choices": ["1", "-1", "i", "-i"],
+            "correct": 1,
+            "explain": "i^6 = i^4 * i^2 = 1 * -1 = -1."
+        },
+        {
+            "worth": 1,
+            "title": "Multiplica <math><mrow><mi>i</mi><mo>(</mo><mn>3</mn><mo>-</mo><mn>2</mn><mi>i</mi><mo>)</mo></mrow></math>",
+            "choices": ["3i-2", "2+3i", "3i+2", "3i-2i^2"],
+            "correct": 1,
+            "explain": "3i - 2i^2 = 3i - 2(-1) = 2+3i."
+        },
+        {
+            "worth": 1,
+            "title": "Resuelve <math><mrow><mo>(</mo><mn>3</mn><mi>i</mi><mo>)</mo><mo>(</mo><mo>-</mo><mn>4</mn><mi>i</mi><mo>)</mo></mrow></math>",
+            "choices": ["-12i", "12i", "-12", "12"],
+            "correct": 3,
+            "explain": "-12i^2 = -12(-1) = 12."
+        },
+        {
+            "worth": 1,
+            "title": "El resultado de <math><mrow><mfrac><mn>1</mn><mi>i</mi></mfrac></mrow></math> es:",
+            "choices": ["i", "-i", "1", "-1"],
+            "correct": 1,
+            "explain": "Multiplicando por -i/-i resulta -i/1 = -i."
+        },
+        {
+            "worth": 1,
+            "title": "Si <math><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>bi</mi><mo>)</mo><mo>(</mo><mn>2</mn><mo>+</mo><mn>3</mn><mi>i</mi><mo>)</mo><mo>=</mo><mn>13</mn></mrow></math>, ¿qué es <math><mrow><mi>a</mi><mo>+</mo><mi>bi</mi></mrow></math>?",
+            "choices": ["2+3i", "2-3i", "13", "1"],
+            "correct": 1,
+            "explain": "Es el conjugado, ya que el producto de un complejo por su conjugado es real."
+        }
+    ]
+}
