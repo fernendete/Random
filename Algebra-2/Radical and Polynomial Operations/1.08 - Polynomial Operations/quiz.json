@@ -1,0 +1,77 @@
+{
+    "title": "1.08 - Polynomial Operations",
+    "exam": false,
+    "totalpoints": 10,
+    "questions": [
+        {
+            "worth": 1,
+            "title": "Suma <math><mrow><mo>(</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>5</mn><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>)</mo></mrow></math>",
+            "choices": ["4x^2-3x", "4x^4-3x^2", "2x^2-7x", "4x^2-7x"],
+            "correct": 0,
+            "explain": "Combina términos semejantes: 3x^2+x^2=4x^2 y -5x+2x=-3x."
+        },
+        {
+            "worth": 1,
+            "title": "Multiplica <math><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo></mrow></math>",
+            "choices": ["x^2+9", "x^2-9", "x^2+6x-9", "x^2-6x-9"],
+            "correct": 1,
+            "explain": "Diferencia de cuadrados: x^2 - 3^2 = x^2 - 9."
+        },
+        {
+            "worth": 1,
+            "title": "¿Cuál es el grado de <math><mrow><mn>5</mn><msup><mi>x</mi><mn>4</mn></msup><mo>-</mo><mn>2</mn><msup><mi>x</mi><mn>7</mn></msup><mo>+</mo><mn>1</mn></mrow></math>?",
+            "choices": ["4", "5", "7", "2"],
+            "correct": 2,
+            "explain": "El grado es el mayor exponente presente, que es 7."
+        },
+        {
+            "worth": 1,
+            "title": "Si divides por <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>4</mn><mo>)</mo></mrow></math>, ¿qué valor usas en sintética?",
+            "choices": ["-4", "4", "0", "1"],
+            "correct": 1,
+            "explain": "Usas la raíz, que es k cuando el divisor es (x-k)."
+        },
+        {
+            "worth": 1,
+            "title": "Resta <math><mrow><mo>(</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>)</mo><mo>-</mo><mo>(</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>)</mo></mrow></math>",
+            "choices": ["2x^2-2", "2x^2+6", "8x^2-2", "2x^2-6"],
+            "correct": 1,
+            "explain": "5x^2-3x^2=2x^2 y 2-(-4)=6."
+        },
+        {
+            "worth": 1,
+            "title": "Al usar división sintética, si falta un término <math><msup><mi>x</mi><mn>2</mn></msup></math>, ¿qué pones?",
+            "choices": ["Nada", "1", "0", "-1"],
+            "correct": 2,
+            "explain": "Debes poner un 0 como marcador de posición."
+        },
+        {
+            "worth": 1,
+            "title": "El Teorema del Residuo dice que el residuo de dividir por <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mi>k</mi><mo>)</mo></mrow></math> es:",
+            "choices": ["P(0)", "P(k)", "P(-k)", "k"],
+            "correct": 1,
+            "explain": "El valor del polinomio evaluado en k es el residuo."
+        },
+        {
+            "worth": 1,
+            "title": "Multiplica <math><mrow><mn>2</mn><mi>x</mi><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>)</mo></mrow></math>",
+            "choices": ["2x^3-4", "2x^3-8", "2x^3-8x", "2x^2-8x"],
+            "correct": 2,
+            "explain": "Distribuye 2x: 2x*x^2 = 2x^3 y 2x*-4 = -8x."
+        },
+        {
+            "worth": 1,
+            "title": "Si el residuo es 0, ¿qué significa?",
+            "choices": ["Error", "El divisor es un factor", "El polinomio no tiene raíces", "División imposible"],
+            "correct": 1,
+            "explain": "Un residuo de 0 significa que el divisor divide al polinomio exactamente."
+        },
+        {
+            "worth": 1,
+            "title": "Expande <math><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><msup><mrow></mrow><mn>2</mn></msup></mrow></math>",
+            "choices": ["x^2+1", "x^2+2x+1", "x^2+x+1", "2x+2"],
+            "correct": 1,
+            "explain": "(x+1)(x+1) = x^2+x+x+1 = x^2+2x+1."
+        }
+    ]
+}
