@@ -1,0 +1,128 @@
+{
+    "title": "2.01 - GCF and Special Products",
+    "exam": false,
+    "totalpoints": 10,
+    "questions": [
+        {
+            "worth": 1,
+            "title": "Encuentra el GCF de <math><mrow><mn>12</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>",
+            "choices": [
+                "4x",
+                "4x^2",
+                "2x^2",
+                "12x^2"
+            ],
+            "correct": 1,
+            "explain": "El mayor divisor común de 12 y 8 es 4, y la menor potencia de x es x^2. Por lo tanto, el GCF es 4x^2."
+        },
+        {
+            "worth": 1,
+            "title": "Factoriza la diferencia de cuadrados <math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>36</mn></mrow></math>",
+            "choices": [
+                "(x+6)(x+6)",
+                "(x-6)(x-6)",
+                "(x+6)(x-6)",
+                "x(x-36)"
+            ],
+            "correct": 2,
+            "explain": "Una diferencia de cuadrados se descompone en binomios conjugados: (x+6)(x-6)."
+        },
+        {
+            "worth": 1,
+            "title": "Expande el binomio al cuadrado <math><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>5</mn><mo>)</mo><msup><mrow></mrow><mn>2</mn></msup></mrow></math>",
+            "choices": [
+                "x^2+25",
+                "x^2+10x+25",
+                "x^2+5x+25",
+                "2x+10"
+            ],
+            "correct": 1,
+            "explain": "Se aplica la regla a^2 + 2ab + b^2 -> x^2 + 2(5)x + 5^2 = x^2 + 10x + 25."
+        },
+        {
+            "worth": 1,
+            "title": "Factoriza completamente extrayendo el GCF primero: <math><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>12</mn></mrow></math>",
+            "choices": [
+                "3(x-2)(x-2)",
+                "3(x+2)(x-2)",
+                "(3x+6)(x-2)",
+                "3(x^2-4)"
+            ],
+            "correct": 1,
+            "explain": "Primero sacas el GCF 3 -> 3(x^2-4), luego factorizas la diferencia de cuadrados -> 3(x+2)(x-2)."
+        },
+        {
+            "worth": 1,
+            "title": "¿Cuál es el resultado de multiplicar <math><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo></mrow></math>?",
+            "choices": [
+                "4x^2-9",
+                "4x^2+9",
+                "4x^2-12x-9",
+                "2x^2-9"
+            ],
+            "correct": 0,
+            "explain": "Es una diferencia de cuadrados: (2x)^2 - (3)^2 = 4x^2 - 9."
+        },
+        {
+            "worth": 1,
+            "title": "Identifica cuál de las siguientes expresiones es un Trinomio Cuadrado Perfecto",
+            "choices": [
+                "x^2+5x+6",
+                "x^2+6x+9",
+                "x^2-9",
+                "x^2+x+1"
+            ],
+            "correct": 1,
+            "explain": "En x^2+6x+9, la mitad del término central (6/2=3) al cuadrado da 9, por lo que es (x+3)^2."
+        },
+        {
+            "worth": 1,
+            "title": "Factoriza la expresión <math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>14</mn><mi>x</mi><mo>+</mo><mn>49</mn></mrow></math>",
+            "choices": [
+                "(x-7)(x-7)",
+                "(x+7)(x-7)",
+                "(x-14)(x+7)",
+                "(x-7)(x+2)"
+            ],
+            "correct": 0,
+            "explain": "Es un trinomio cuadrado perfecto: (x-7)^2 o (x-7)(x-7) ya que (-7)+(-7)=-14 y (-7)*(-7)=49."
+        },
+        {
+            "worth": 1,
+            "title": "Extrae el GCF de la expresión <math><mrow><mn>5</mn><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>15</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>10</mn><mi>x</mi></mrow></math>",
+            "choices": [
+                "5x^4",
+                "5x",
+                "5x(x^3+3x-2)",
+                "5(x^4+3x^2-2x)"
+            ],
+            "correct": 2,
+            "findIndex": 2,
+            "explain": "El máximo común divisor de los coeficientes es 5 y la menor potencia de x presente es x. Queda 5x(x^3+3x-2)."
+        },
+        {
+            "worth": 1,
+            "title": "Si tienes <math><mrow><mo>(</mo><mn>3</mn><mi>x</mi><mo>-</mo><mn>4</mn><mo>)</mo><msup><mrow></mrow><mn>2</mn></msup></mrow></math>, ¿cuál es el término central?",
+            "choices": [
+                "-12x",
+                "-24x",
+                "-6x",
+                "12x"
+            ],
+            "correct": 1,
+            "explain": "El término central es 2 * (3x) * (-4) = -24x."
+        },
+        {
+            "worth": 1,
+            "title": "¿Cuál es la factorización completa de <math><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>8</mn></mrow></math>?",
+            "choices": [
+                "2(x+2)(x+2)",
+                "(2x+4)(x+2)",
+                "2(x^2+4x+4)",
+                "No se puede factorizar"
+            ],
+            "correct": 0,
+            "explain": "Primero sacas GCF 2 -> 2(x^2+4x+4). Luego factorizas el trinomio cuadrado perfecto -> 2(x+2)(x+2)."
+        }
+    ]
+}
