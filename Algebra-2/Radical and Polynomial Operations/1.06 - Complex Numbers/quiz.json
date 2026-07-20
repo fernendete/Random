@@ -1,0 +1,77 @@
+{
+    "title": "1.06 - Complex Numbers",
+    "exam": false,
+    "totalpoints": 10,
+    "questions": [
+        {
+            "worth": 1,
+            "title": "What is the value of <math><mrow><msup><mi>i</mi><mn>2</mn></msup></mrow></math>?",
+            "choices": ["1", "-1", "i", "-i"],
+            "correct": 1,
+            "explain": "By definition, i squared is -1."
+        },
+        {
+            "worth": 1,
+            "title": "What is the real part of <math><mrow><mn>5</mn><mo>+</mo><mn>3</mn><mi>i</mi></mrow></math>?",
+            "choices": ["3", "5", "3i", "5i"],
+            "correct": 1,
+            "explain": "The real part is the term without the i."
+        },
+        {
+            "worth": 1,
+            "title": "Solve <math><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>i</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mo>+</mo><mn>3</mn><mi>i</mi><mo>)</mo></mrow></math>",
+            "choices": ["3+5i", "3+i", "2+6i", "1+5i"],
+            "correct": 0,
+            "explain": "Combine real (1+2=3) and imaginary (2i+3i=5i)."
+        },
+        {
+            "worth": 1,
+            "title": "What is the imaginary part of <math><mrow><mn>2</mn><mo>-</mo><mn>7</mn><mi>i</mi></mrow></math>?",
+            "choices": ["2", "7", "-7", "-7i"],
+            "correct": 2,
+            "explain": "The imaginary part is the coefficient of i, which is -7."
+        },
+        {
+            "worth": 1,
+            "title": "Solve <math><mrow><mo>(</mo><mn>4</mn><mo>+</mo><mn>5</mn><mi>i</mi><mo>)</mo><mo>-</mo><mo>(</mo><mn>2</mn><mo>+</mo><mn>2</mn><mi>i</mi><mo>)</mo></mrow></math>",
+            "choices": ["2+7i", "6+7i", "2+3i", "6+3i"],
+            "correct": 2,
+            "explain": "(4-2) + (5i-2i) = 2+3i."
+        },
+        {
+            "worth": 1,
+            "title": "What is the conjugate of <math><mrow><mn>3</mn><mo>+</mo><mn>4</mn><mi>i</mi></mrow></math>?",
+            "choices": ["3+4i", "-3-4i", "3-4i", "-3+4i"],
+            "correct": 2,
+            "explain": "The conjugate changes the sign of the imaginary part."
+        },
+        {
+            "worth": 1,
+            "title": "Simplify <math><mrow><msqrt><mo>-</mo><mn>9</mn></msqrt></mrow></math>",
+            "choices": ["3", "-3", "3i", "-3i"],
+            "correct": 2,
+            "explain": "The square root of -9 is 3i."
+        },
+        {
+            "worth": 1,
+            "title": "Which describes a complex number?",
+            "choices": ["Only imaginary numbers", "Only real numbers", "A combination of real and imaginary parts", "Numbers without i"],
+            "correct": 2,
+            "explain": "A complex number contains both real and imaginary components."
+        },
+        {
+            "worth": 1,
+            "title": "Solve <math><mrow><mi>i</mi><mo>&#215;</mo><mi>i</mi></mrow></math>",
+            "choices": ["1", "-1", "0", "i"],
+            "correct": 1,
+            "explain": "Multiplying i by itself gives -1."
+        },
+        {
+            "worth": 1,
+            "title": "Solve <math><mrow><mn>2</mn><mi>i</mi><mo>&#215;</mo><mn>3</mn><mi>i</mi></mrow></math>",
+            "choices": ["6i", "6", "-6i", "-6"],
+            "correct": 3,
+            "explain": "6 * (i*i) = 6 * (-1) = -6."
+        }
+    ]
+}
