@@ -1,0 +1,15 @@
+{
+    "username": "fernando24",
+    "password": "12345678",
+    "courses": [
+        {
+            "name": "Algebra 2",
+            "id": "alg2",
+            "progress": {
+                "grades": {},
+                "letter": "A",
+                "percentage": 90.00
+            }
+        }
+    ]
+}
