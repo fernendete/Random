@@ -36,10 +36,46 @@
             ],
             "timeStamp": "2026-07-22T17:34:25.145Z",
             "t": 10
+          },
+          "1.06 - Complex Numbers": {
+            "score": 10,
+            "perc": 100,
+            "inc": [],
+            "timeStamp": "2026-07-24T20:45:22.419Z",
+            "t": 10
+          },
+          "1.07 - Operations of Complex Numbers": {
+            "score": 6,
+            "perc": 60,
+            "inc": [
+              "1|1",
+              "2|1",
+              "3|2",
+              "6|1"
+            ],
+            "timeStamp": "2026-07-24T22:20:40.912Z",
+            "t": 10
+          },
+          "2.01 - GCF and Special Products": {
+            "score": 6,
+            "perc": 60,
+            "inc": [
+              "3|1",
+              "6|0",
+              "7|2",
+              "9|0"
+            ],
+            "timeStamp": "2026-07-24T23:00:52.637Z",
+            "t": 10
           }
         },
-        "letter": "A",
-        "percentage": 97.22
+        "letter": "B",
+        "percentage": 86.36
+      },
+      "meta": {
+        "isHonors": false,
+        "estimatedDays": 180,
+        "totalAssesments": 70
       }
     }
   ]
