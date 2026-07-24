@@ -36,10 +36,22 @@
             ],
             "timeStamp": "2026-07-22T17:34:25.145Z",
             "t": 10
+          },
+          "1.06 - Complex Numbers": {
+            "score": 10,
+            "perc": 100,
+            "inc": [],
+            "timeStamp": "2026-07-24T20:45:22.419Z",
+            "t": 10
           }
         },
         "letter": "A",
-        "percentage": 97.22
+        "percentage": 97.83
+      },
+      "meta": {
+        "isHonors": false,
+        "estimatedDays": 180,
+        "totalAssesments": 70
       }
     }
   ]
