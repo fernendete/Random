@@ -55,10 +55,22 @@
             ],
             "timeStamp": "2026-07-24T22:20:40.912Z",
             "t": 10
+          },
+          "2.01 - GCF and Special Products": {
+            "score": 6,
+            "perc": 60,
+            "inc": [
+              "3|1",
+              "6|0",
+              "7|2",
+              "9|0"
+            ],
+            "timeStamp": "2026-07-24T23:00:52.637Z",
+            "t": 10
           }
         },
-        "letter": "A",
-        "percentage": 91.07
+        "letter": "B",
+        "percentage": 86.36
       },
       "meta": {
         "isHonors": false,
