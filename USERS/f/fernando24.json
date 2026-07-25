@@ -4,6 +4,7 @@
   "courses": [
     {
       "name": "Algebra 2",
+      "col": "#cd2c00",
       "id": "alg2",
       "progress": {
         "grades": {

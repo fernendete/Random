@@ -1,5 +1,6 @@
 {
     "courseName": "Geometry",
+    "courseid": "geo",
     "courseColor": "#44b3a4",
     "isHonors": false,
     "estimatedDays": 180,

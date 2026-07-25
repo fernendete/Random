@@ -1,5 +1,6 @@
 {
     "courseName": "Algebra 2",
+    "courseid": "alg2",
     "courseColor": "#cd2c00",
     "isHonors": true,
     "estimatedDays": 180,
