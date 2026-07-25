@@ -1,7 +1,7 @@
 {
     "courseName": "Algebra 2",
     "courseColor": "#cd2c00",
-    "isHonors": false,
+    "isHonors": true,
     "estimatedDays": 180,
     "totalAssesments": 64
 }
