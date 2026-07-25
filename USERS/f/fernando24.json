@@ -68,21 +68,18 @@
             "timeStamp": "2026-07-24T23:00:52.637Z",
             "t": 10
           },
-          "1.05 - Discussion-Based Assesment": {
-            "score": 30,
-            "perc": 100,
+          "1.08 - Polynomial Operations": {
+            "score": 9,
+            "perc": 90,
             "inc": [
-              "3|1",
-              "6|0",
-              "7|2",
-              "9|0"
+              "1|1"
             ],
-            "timeStamp": "2026-07-24T23:00:52.637Z",
-            "t": 30
+            "timeStamp": "2026-07-24T23:06:18.058Z",
+            "t": 10
           }
         },
         "letter": "B",
-        "percentage": 86.36
+        "percentage": 86.84
       },
       "meta": {
         "isHonors": false,
