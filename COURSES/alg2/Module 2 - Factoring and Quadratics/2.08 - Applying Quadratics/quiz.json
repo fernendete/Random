@@ -1,0 +1,127 @@
+{
+  "title": "2.08 - Applying Quadratics",
+  "exam": false,
+  "totalpoints": 10,
+  "questions": [
+    {
+      "worth": 1,
+      "title": "¿Qué representa el vértice en una función cuadrática aplicada? <br><strong>(máximo o mínimo)</strong>",
+      "choices": [
+        "La pendiente",
+        "El intercepto en y",
+        "El valor máximo o mínimo",
+        "La raíz cuadrada"
+      ],
+      "correct": 2,
+      "explain": "El vértice indica el máximo o mínimo de la situación."
+    },
+    {
+      "worth": 1,
+      "title": "¿Cuál es la fórmula para encontrar el valor de h del vértice? <br><math><mrow><mi>h</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mi>b</mi></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow></math>",
+      "choices": [
+        "-b/a",
+        "b/2a",
+        "-b/2a",
+        "2a/b"
+      ],
+      "correct": 2,
+      "explain": "El vértice se calcula con h = -b/(2a)."
+    },
+    {
+      "worth": 1,
+      "title": "En el modelo <math><mrow><mi>h</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>16</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>32</mn><mi>t</mi></mrow></math>, ¿cuál es la altura máxima?",
+      "choices": [
+        "8 ft",
+        "16 ft",
+        "32 ft",
+        "48 ft"
+      ],
+      "correct": 1,
+      "explain": "La altura máxima es 16 ft."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué indica un coeficiente a negativo en una función cuadrática aplicada?",
+      "choices": [
+        "La parábola abre hacia arriba",
+        "La parábola abre hacia abajo",
+        "No tiene vértice",
+        "No es cuadrática"
+      ],
+      "correct": 1,
+      "explain": "a < 0 → parábola hacia abajo → máximo."
+    },
+    {
+      "worth": 1,
+      "title": "En el modelo de ganancias <math><mrow><mi>P</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>40</mn><mi>x</mi><mo>-</mo><mn>100</mn></mrow></math>, ¿cuál es la ganancia máxima?",
+      "choices": [
+        "$40",
+        "$100",
+        "$200",
+        "$400"
+      ],
+      "correct": 1,
+      "explain": "La ganancia máxima es $100."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué representa el valor de k en el vértice?",
+      "choices": [
+        "El valor máximo o mínimo",
+        "El intercepto en x",
+        "La pendiente",
+        "La aceleración"
+      ],
+      "correct": 0,
+      "explain": "k es el valor máximo o mínimo."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué indica el vértice en un problema de proyectiles?",
+      "choices": [
+        "La velocidad inicial",
+        "La altura máxima",
+        "El tiempo inicial",
+        "La distancia horizontal"
+      ],
+      "correct": 1,
+      "explain": "El vértice indica la altura máxima."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué tipo de función se usa para modelar ganancias máximas?",
+      "choices": [
+        "Lineal",
+        "Exponencial",
+        "Cuadrática",
+        "Constante"
+      ],
+      "correct": 2,
+      "explain": "Las ganancias máximas se modelan con cuadráticas."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué valor de h indica el punto donde ocurre el máximo o mínimo?",
+      "choices": [
+        "El intercepto en y",
+        "El intercepto en x",
+        "El vértice",
+        "La pendiente"
+      ],
+      "correct": 2,
+      "explain": "h es la coordenada x del vértice."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué representa una parábola que abre hacia arriba?",
+      "choices": [
+        "Un máximo",
+        "Un mínimo",
+        "No tiene vértice",
+        "Una línea recta"
+      ],
+      "correct": 1,
+      "explain": "a > 0 → parábola hacia arriba → mínimo."
+    }
+  ]
+}
