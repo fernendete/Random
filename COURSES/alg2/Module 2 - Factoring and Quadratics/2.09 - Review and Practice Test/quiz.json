@@ -1,0 +1,187 @@
+{
+  "title": "2.09 - Review and Practice Test",
+  "exam": true,
+  "totalpoints": 15,
+  "questions": [
+    {
+      "worth": 1,
+      "title": "Factoriza el siguiente GCF:<br><math><mrow><mn>12</mn><mi>x</mi><mo>+</mo><mn>18</mn></mrow></math>",
+      "choices": [
+        "6(x + 3)",
+        "3(4x + 6)",
+        "2(6x + 9)",
+        "12(x + 18)"
+      ],
+      "correct": 0,
+      "explain": "El GCF es 6: <math><mrow><mn>12</mn><mi>x</mi><mo>+</mo><mn>18</mn><mo>=</mo><mn>6</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></math>."
+    },
+    {
+      "worth": 1,
+      "title": "Expande el producto especial:<br><math><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>5</mn><mo>)</mo><msup><mo></mo><mn>2</mn></msup></mrow></math>",
+      "choices": [
+        "x² + 10x + 25",
+        "x² + 5x + 25",
+        "x² + 25",
+        "x² + 15x + 25"
+      ],
+      "correct": 0,
+      "explain": "Usa <math><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><msup><mo></mo><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></mrow></math>."
+    },
+    {
+      "worth": 1,
+      "title": "Factoriza por agrupación:<br><math><mrow><mi>x</mi><msup><mo></mo><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math>",
+      "choices": [
+        "(x² + 1)(x + 3)",
+        "(x + 1)(x² + 3)",
+        "(x + 3)(x² + 1)",
+        "(x + 3)(x² + 1)"
+      ],
+      "correct": 2,
+      "explain": "Agrupa: <math><mrow><mo>(</mo><mi>x</mi><msup><mo></mo><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></math>."
+    },
+    {
+      "worth": 1,
+      "title": "Factoriza la suma de cubos:<br><math><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>8</mn></mrow></math>",
+      "choices": [
+        "(x + 2)(x² - 2x + 4)",
+        "(x + 2)(x² + 2x + 4)",
+        "(x - 2)(x² + 2x + 4)",
+        "(x + 2)(x² + 4)"
+      ],
+      "correct": 1,
+      "explain": "Usa <math><mrow><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><msup><mi>b</mi><mn>3</mn></msup><mo>=</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo></mrow></math>."
+    },
+    {
+      "worth": 1,
+      "title": "¿Cuál es el vértice de la función?<br><math><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></math>",
+      "choices": [
+        "(3, -4)",
+        "(3, -5)",
+        "(6, 5)",
+        "(3, -1)"
+      ],
+      "correct": 3,
+      "explain": "<math><mrow><mi>h</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mi>b</mi></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow></math> = 3. Evalúa f(3) = -1."
+    },
+    {
+      "worth": 1,
+      "title": "Completa el cuadrado:<br><math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>10</mn><mi>x</mi></mrow></math>",
+      "choices": [
+        "(x + 5)² - 25",
+        "(x + 5)²",
+        "(x + 10)²",
+        "(x + 2)² + 6"
+      ],
+      "correct": 1,
+      "explain": "El número mágico es <math><mrow><mo>(</mo><mfrac><mn>10</mn><mn>2</mn></mfrac><mo>)</mo><msup><mo></mo><mn>2</mn></msup><mo>=</mo><mn>25</mn></mrow></math>."
+    },
+    {
+      "worth": 1,
+      "title": "Resuelve:<br><math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>9</mn></mrow></math>",
+      "choices": [
+        "x = ±3",
+        "x = 3",
+        "x = -3",
+        "x = 9"
+      ],
+      "correct": 0,
+      "explain": "Diferencia de cuadrados: <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></math>."
+    },
+    {
+      "worth": 1,
+      "title": "Usa la fórmula cuadrática:<br><math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>8</mn></mrow></math>",
+      "choices": [
+        "x = -2 ± 2i",
+        "x = -2 ± √8",
+        "x = -4 ± 2i",
+        "x = -4 ± √8"
+      ],
+      "correct": 0,
+      "explain": "El discriminante es <math><mrow><mn>16</mn><mo>-</mo><mn>32</mn><mo>=</mo><mo>-</mo><mn>16</mn></mrow></math>."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué indica un discriminante negativo?",
+      "choices": [
+        "Dos soluciones reales",
+        "Una solución real",
+        "Dos soluciones complejas",
+        "No hay solución"
+      ],
+      "correct": 2,
+      "explain": "Si <math><mrow><mi>D</mi><mo>&lt;</mo><mn>0</mn></mrow></math>, aparecen números imaginarios."
+    },
+    {
+      "worth": 1,
+      "title": "Evalúa la altura máxima:<br><math><mrow><mi>h</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>16</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>32</mn><mi>t</mi></mrow></math>",
+      "choices": [
+        "16 ft",
+        "32 ft",
+        "48 ft",
+        "64 ft"
+      ],
+      "correct": 0,
+      "explain": "El vértice ocurre en t = 1. h(1) = 16."
+    },
+    {
+      "worth": 1,
+      "title": "Factoriza:<br><math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>7</mn><mi>x</mi><mo>+</mo><mn>10</mn></mrow></math>",
+      "choices": [
+        "(x + 5)(x + 2)",
+        "(x + 10)(x - 1)",
+        "(x + 7)(x + 1)",
+        "(x + 4)(x + 3)"
+      ],
+      "correct": 0,
+      "explain": "5 + 2 = 7 y 5·2 = 10."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué representa el vértice en un modelo de ganancias?",
+      "choices": [
+        "El costo mínimo",
+        "La ganancia máxima",
+        "La velocidad",
+        "El intercepto en y"
+      ],
+      "correct": 1,
+      "explain": "Si <math><mrow><mi>a</mi><mo>&lt;</mo><mn>0</mn></mrow></math>, el vértice es un máximo."
+    },
+    {
+      "worth": 1,
+      "title": "Resuelve por factorización:<br><math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>",
+      "choices": [
+        "x = 0, -3",
+        "x = 3, -3",
+        "x = 0, 3",
+        "x = -3"
+      ],
+      "correct": 0,
+      "explain": "Factoriza: <math><mrow><mi>x</mi><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></math>."
+    },
+    {
+      "worth": 1,
+      "title": "¿Cuál es la forma vértice?<br><math><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math>",
+      "choices": [
+        "2(x + 2)² - 5",
+        "2(x - 2)² + 5",
+        "2(x + 4)² - 3",
+        "2(x - 4)² + 3"
+      ],
+      "correct": 0,
+      "explain": "Completa el cuadrado: <math><mrow><mn>8</mn><mo>/</mo><mn>2</mn><mo>=</mo><mn>4</mn></mrow></math>, <math><mrow><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><mn>16</mn></mrow></math>."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué indica una parábola que abre hacia arriba?",
+      "choices": [
+        "Un máximo",
+        "Un mínimo",
+        "No tiene vértice",
+        "Es lineal"
+      ],
+      "correct": 1,
+      "explain": "Si <math><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, la parábola tiene un mínimo."
+    }
+  ]
+}
