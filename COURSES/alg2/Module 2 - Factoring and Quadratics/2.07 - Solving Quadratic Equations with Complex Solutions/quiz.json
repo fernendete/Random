@@ -1,0 +1,127 @@
+{
+  "title": "2.07 - Solving Quadratic Equations with Complex Solutions",
+  "exam": false,
+  "totalpoints": 10,
+  "questions": [
+    {
+      "worth": 1,
+      "title": "¿Qué valor del discriminante produce soluciones complejas? <br><math><mrow><mi>D</mi><mo>=</mo><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></math>",
+      "choices": [
+        "D > 0",
+        "D = 0",
+        "D < 0",
+        "D = 1"
+      ],
+      "correct": 2,
+      "explain": "Un discriminante negativo produce soluciones complejas."
+    },
+    {
+      "worth": 1,
+      "title": "¿Cuál es el valor de <math><msqrt><mo>-</mo><mn>25</mn></msqrt></math>?",
+      "choices": [
+        "5",
+        "-5",
+        "5i",
+        "-5i"
+      ],
+      "correct": 2,
+      "explain": "La raíz de un número negativo es un número imaginario."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué representa la letra i? <br><math><mrow><mi>i</mi><mo>=</mo><msqrt><mo>-</mo><mn>1</mn></msqrt></mrow></math>",
+      "choices": [
+        "Un número real",
+        "Un número racional",
+        "La unidad imaginaria",
+        "Un número entero"
+      ],
+      "correct": 2,
+      "explain": "i es la unidad imaginaria."
+    },
+    {
+      "worth": 1,
+      "title": "¿Cuántas soluciones complejas tiene una cuadrática cuando D < 0?",
+      "choices": [
+        "Una",
+        "Dos",
+        "Tres",
+        "Infinitas"
+      ],
+      "correct": 1,
+      "explain": "Siempre aparecen dos soluciones complejas conjugadas."
+    },
+    {
+      "worth": 1,
+      "title": "Resolver: <math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>13</mn><mo>=</mo><mn>0</mn></mrow></math>",
+      "choices": [
+        "x = -2 ± 3",
+        "x = -2 ± 3i",
+        "x = 2 ± 3i",
+        "x = 2 ± 13i"
+      ],
+      "correct": 1,
+      "explain": "El discriminante es -36, dando x = -2 ± 3i."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué ocurre cuando tomamos la raíz de un número negativo?",
+      "choices": [
+        "No existe solución",
+        "Se obtiene un número real",
+        "Se obtiene un número imaginario",
+        "Se obtiene cero"
+      ],
+      "correct": 2,
+      "explain": "La raíz de un número negativo produce un número imaginario."
+    },
+    {
+      "worth": 1,
+      "title": "¿Cuál es la forma general de una solución compleja?",
+      "choices": [
+        "a + b",
+        "a - b",
+        "a ± bi",
+        "ab"
+      ],
+      "correct": 2,
+      "explain": "Las soluciones complejas se expresan como a ± bi."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué indica que una cuadrática no corta el eje X?",
+      "choices": [
+        "D > 0",
+        "D = 0",
+        "D < 0",
+        "a = 0"
+      ],
+      "correct": 2,
+      "explain": "D < 0 → no hay intersecciones reales."
+    },
+    {
+      "worth": 1,
+      "title": "¿Cuál es el valor de <math><msqrt><mo>-</mo><mn>81</mn></msqrt></math>?",
+      "choices": [
+        "9",
+        "-9",
+        "9i",
+        "-9i"
+      ],
+      "correct": 2,
+      "explain": "La raíz de -81 es 9i."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué tipo de soluciones produce un discriminante negativo?",
+      "choices": [
+        "Reales",
+        "Racionales",
+        "Complejas",
+        "Enteras"
+      ],
+      "correct": 2,
+      "explain": "Un discriminante negativo produce soluciones complejas."
+    }
+  ]
+}
