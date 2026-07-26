@@ -94,10 +94,19 @@
             "inc": [],
             "timeStamp": "2026-07-26T17:36:35.332Z",
             "t": 10
+          },
+          "2.04 - Graphing Quadratics": {
+            "score": 9,
+            "perc": 90,
+            "inc": [
+              "4|2"
+            ],
+            "timeStamp": "2026-07-26T18:53:00.413Z",
+            "t": 10
           }
         },
         "letter": "B",
-        "percentage": 88.54
+        "percentage": 88.68
       },
       "meta": {
         "courseName": "Algebra 2",
