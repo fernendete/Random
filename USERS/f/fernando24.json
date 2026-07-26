@@ -112,10 +112,19 @@
             ],
             "timeStamp": "2026-07-26T19:07:03.425Z",
             "t": 10
+          },
+          "2.06 - Solving Quadratic Equations": {
+            "score": 9,
+            "perc": 90,
+            "inc": [
+              "9|2"
+            ],
+            "timeStamp": "2026-07-26T19:28:57.795Z",
+            "t": 10
           }
         },
         "letter": "B",
-        "percentage": 87.93
+        "percentage": 88.1
       },
       "meta": {
         "courseName": "Algebra 2",
