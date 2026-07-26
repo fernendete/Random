@@ -1,0 +1,127 @@
+{
+  "title": "2.06 - Solving Quadratic Equations",
+  "exam": false,
+  "totalpoints": 10,
+  "questions": [
+    {
+      "worth": 1,
+      "title": "¿Cuál es la forma general de una ecuación cuadrática?",
+      "choices": [
+        "ax + b = 0",
+        "ax^2 + bx + c = 0",
+        "ax^3 + bx^2 + c = 0",
+        "ax^2 - c = 0"
+      ],
+      "correct": 1,
+      "explain": "Una ecuación cuadrática tiene la forma ax^2 + bx + c = 0, con a ≠ 0."
+    },
+    {
+      "worth": 1,
+      "title": "¿Cuál es la fórmula cuadrática?",
+      "choices": [
+        "x = -b/a",
+        "x = -b ± √(b^2 - 4ac)",
+        "x = (-b ± √(b^2 - 4ac)) / (2a)",
+        "x = (b^2 - 4ac)/2"
+      ],
+      "correct": 2,
+      "explain": "La fórmula cuadrática correcta es x = (-b ± √(b^2 - 4ac)) / (2a)."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué representa el discriminante en la fórmula cuadrática?",
+      "choices": [
+        "b^2",
+        "4ac",
+        "b^2 - 4ac",
+        "2a"
+      ],
+      "correct": 2,
+      "explain": "El discriminante es b^2 - 4ac y determina el tipo de soluciones."
+    },
+    {
+      "worth": 1,
+      "title": "Si el discriminante es mayor que cero, ¿cuántas soluciones reales tiene la ecuación?",
+      "choices": [
+        "Ninguna",
+        "Una",
+        "Dos",
+        "Infinitas"
+      ],
+      "correct": 2,
+      "explain": "D > 0 implica dos soluciones reales distintas."
+    },
+    {
+      "worth": 1,
+      "title": "Si b^2 - 4ac = 0, ¿qué ocurre con las soluciones?",
+      "choices": [
+        "No hay soluciones reales",
+        "Hay una solución real doble",
+        "Hay dos soluciones complejas",
+        "Hay tres soluciones reales"
+      ],
+      "correct": 1,
+      "explain": "Cuando D = 0, la ecuación tiene una única solución real repetida (raíz doble)."
+    },
+    {
+      "worth": 1,
+      "title": "Si el discriminante es negativo, ¿qué tipo de soluciones tiene la ecuación?",
+      "choices": [
+        "Dos soluciones reales",
+        "Una solución real",
+        "Soluciones complejas (no reales)",
+        "No tiene soluciones"
+      ],
+      "correct": 2,
+      "explain": "D < 0 implica soluciones complejas conjugadas."
+    },
+    {
+      "worth": 1,
+      "title": "Resuelve x^2 - 5x + 6 = 0 usando la fórmula cuadrática.",
+      "choices": [
+        "x = 1 y x = 6",
+        "x = 2 y x = 3",
+        "x = -2 y x = -3",
+        "x = 5 y x = 6"
+      ],
+      "correct": 1,
+      "explain": "Las soluciones son x = 2 y x = 3."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué método es más universal para resolver cuadráticas?",
+      "choices": [
+        "Factorización",
+        "Completar el cuadrado",
+        "Fórmula cuadrática",
+        "Regla de tres"
+      ],
+      "correct": 2,
+      "explain": "La fórmula cuadrática funciona para cualquier cuadrática con a ≠ 0."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué indica que una cuadrática no tiene intersecciones reales con el eje X?",
+      "choices": [
+        "D > 0",
+        "D = 0",
+        "D < 0",
+        "a = 0"
+      ],
+      "correct": 2,
+      "explain": "Un discriminante negativo implica que la gráfica no corta el eje X."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué valor de a haría que la ecuación dejara de ser cuadrática?",
+      "choices": [
+        "a = 1",
+        "a = -1",
+        "a = 0",
+        "a = 2"
+      ],
+      "correct": 2,
+      "explain": "Si a = 0, la ecuación deja de ser cuadrática y se convierte en lineal."
+    }
+  ]
+}
