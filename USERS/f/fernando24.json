@@ -103,10 +103,20 @@
             ],
             "timeStamp": "2026-07-26T18:53:00.413Z",
             "t": 10
+          },
+          "2.05 - Completing the Square": {
+            "score": 8,
+            "perc": 80,
+            "inc": [
+              "7|0",
+              "9|1"
+            ],
+            "timeStamp": "2026-07-26T19:07:03.425Z",
+            "t": 10
           }
         },
         "letter": "B",
-        "percentage": 88.68
+        "percentage": 87.93
       },
       "meta": {
         "courseName": "Algebra 2",
