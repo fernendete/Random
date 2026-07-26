@@ -1,0 +1,127 @@
+{
+    "title": "2.04 - Graphing Quadratics",
+    "exam": false,
+    "totalpoints": 10,
+    "questions": [
+        {
+            "worth": 1,
+            "title": "¿Qué forma tiene la gráfica de una función cuadrática?",
+            "choices": [
+                "Una línea recta",
+                "Un círculo",
+                "Una parábola",
+                "Un triángulo"
+            ],
+            "correct": 2,
+            "explain": "Las funciones cuadráticas siempre forman una parábola."
+        },
+        {
+            "worth": 1,
+            "title": "¿Qué determina el coeficiente 'a' en la función cuadrática?",
+            "choices": [
+                "La altura del vértice",
+                "La apertura de la parábola",
+                "La intersección con y",
+                "El número de raíces"
+            ],
+            "correct": 1,
+            "explain": "El coeficiente 'a' controla si la parábola abre hacia arriba o hacia abajo."
+        },
+        {
+            "worth": 1,
+            "title": "¿Cuál es la fórmula para la coordenada x del vértice?",
+            "choices": [
+                "x = b/a",
+                "x = -b/(2a)",
+                "x = 2a/b",
+                "x = -2a/b"
+            ],
+            "correct": 1,
+            "explain": "La fórmula del vértice es x = -b/(2a)."
+        },
+        {
+            "worth": 1,
+            "title": "¿Cuál es la intersección con y de la función y = x² - 4x + 3?",
+            "choices": [
+                "3",
+                "-4",
+                "0",
+                "1"
+            ],
+            "correct": 0,
+            "explain": "La intersección con y es el valor de c, que es 3."
+        },
+        {
+            "worth": 1,
+            "title": "¿Qué puntos representan las intersecciones con x de la función y = x² - 4x + 3?",
+            "choices": [
+                "(0, 3)",
+                "(2, -1)",
+                "(1, 0) y (3, 0)",
+                "(4, 0)"
+            ],
+            "correct": 2,
+            "explain": "Las raíces de la ecuación son x = 1 y x = 3."
+        },
+        {
+            "worth": 1,
+            "title": "¿Qué representa el vértice de una parábola?",
+            "choices": [
+                "El punto más alto o más bajo",
+                "La intersección con y",
+                "La pendiente",
+                "El centro de la parábola"
+            ],
+            "correct": 0,
+            "explain": "El vértice es el punto máximo o mínimo."
+        },
+        {
+            "worth": 1,
+            "title": "Si a > 0, ¿cómo abre la parábola?",
+            "choices": [
+                "Hacia abajo",
+                "Hacia arriba",
+                "Hacia la derecha",
+                "Hacia la izquierda"
+            ],
+            "correct": 1,
+            "explain": "Si a es positivo, la parábola abre hacia arriba."
+        },
+        {
+            "worth": 1,
+            "title": "Si a < 0, ¿cómo abre la parábola?",
+            "choices": [
+                "Hacia arriba",
+                "Hacia abajo",
+                "Hacia la derecha",
+                "Hacia la izquierda"
+            ],
+            "correct": 1,
+            "explain": "Si a es negativo, la parábola abre hacia abajo."
+        },
+        {
+            "worth": 1,
+            "title": "¿Cuál es la intersección con y de la función y = 2x² + 5x - 7?",
+            "choices": [
+                "-7",
+                "5",
+                "2",
+                "0"
+            ],
+            "correct": 0,
+            "explain": "La intersección con y es c, que es -7."
+        },
+        {
+            "worth": 1,
+            "title": "¿Qué se necesita para graficar una parábola correctamente?",
+            "choices": [
+                "Solo el vértice",
+                "Solo las intersecciones con x",
+                "Vértice, intersección con y y forma de apertura",
+                "Nada, se dibuja al azar"
+            ],
+            "correct": 2,
+            "explain": "Estos elementos permiten construir la parábola con precisión."
+        }
+    ]
+}
