@@ -1,0 +1,117 @@
+{
+    "title": "2.05 - Completing the Square",
+    "exam": false,
+    "totalpoints": 10,
+    "questions": [
+        {
+            "worth": 1,
+            "title": "¿Cuál es el número mágico para completar el cuadrado en x² + 10x?",
+            "choices": ["5", "10", "25", "50"],
+            "correct": 2,
+            "explain": "El número mágico es (10/2)² = 25."
+        },
+        {
+            "worth": 1,
+            "title": "¿Cuál es la forma factorizada de x² + 8x + 16?",
+            "choices": ["(x+8)²", "(x+4)²", "(x+2)²", "(x+16)²"],
+            "correct": 1,
+            "explain": "El número mágico es 16, y la factorización es (x+4)²."
+        },
+        {
+            "worth": 1,
+            "title": "¿Cuál es el primer paso para completar el cuadrado?",
+            "choices": [
+                "Tomar la raíz cuadrada",
+                "Asegurar que el coeficiente de x² sea 1",
+                "Multiplicar por 2",
+                "Factorizar directamente"
+            ],
+            "correct": 1,
+            "explain": "El coeficiente de x² debe ser 1 para aplicar el método."
+        },
+        {
+            "worth": 1,
+            "title": "Completa el cuadrado: x² + 6x",
+            "choices": [
+                "(x+6)²",
+                "(x+3)²",
+                "(x+2)²",
+                "(x+1)²"
+            ],
+            "correct": 1,
+            "explain": "El número mágico es 9, y la factorización es (x+3)²."
+        },
+        {
+            "worth": 1,
+            "title": "¿Qué representa (b/2)² en el proceso?",
+            "choices": [
+                "El vértice",
+                "El número mágico",
+                "La raíz cuadrada",
+                "El coeficiente principal"
+            ],
+            "correct": 1,
+            "explain": "Es el número que convierte el trinomio en un cuadrado perfecto."
+        },
+        {
+            "worth": 1,
+            "title": "Convierte y = x² - 4x + 1 a forma vértice.",
+            "choices": [
+                "y = (x-2)² - 3",
+                "y = (x+2)² + 3",
+                "y = (x-4)² + 1",
+                "y = (x+4)² - 1"
+            ],
+            "correct": 0,
+            "explain": "El número mágico es 4, resultando en (x-2)² - 3."
+        },
+        {
+            "worth": 1,
+            "title": "¿Qué se debe hacer si el coeficiente de x² no es 1?",
+            "choices": [
+                "Ignorarlo",
+                "Dividir toda la ecuación por ese coeficiente",
+                "Multiplicar por 2",
+                "Restarlo"
+            ],
+            "correct": 1,
+            "explain": "Debe dividirse toda la ecuación para normalizar el coeficiente."
+        },
+        {
+            "worth": 1,
+            "title": "Completa el cuadrado: x² - 12x",
+            "choices": [
+                "(x-6)²",
+                "(x-12)²",
+                "(x-3)²",
+                "(x+6)²"
+            ],
+            "correct": 0,
+            "explain": "El número mágico es 36, resultando en (x-6)²."
+        },
+        {
+            "worth": 1,
+            "title": "¿Qué forma se obtiene al completar el cuadrado?",
+            "choices": [
+                "Forma estándar",
+                "Forma factorizada",
+                "Forma vértice",
+                "Forma lineal"
+            ],
+            "correct": 2,
+            "explain": "Completar el cuadrado produce la forma vértice."
+        },
+        {
+            "worth": 1,
+            "title": "¿Cuál es el vértice de y = (x+3)² - 7?",
+            "choices": [
+                "(3, -7)",
+                "(-3, -7)",
+                "(3, 7)",
+                "(-3, 7)"
+            ],
+            "correct": 1,
+            "explain": "La forma (x - h)² + k indica que h = -3 y k = -7."
+        }
+    ]
+}
