@@ -121,10 +121,17 @@
             ],
             "timeStamp": "2026-07-26T19:28:57.795Z",
             "t": 10
+          },
+          "2.07 - Solving Quadratic Equations with Complex Solutions": {
+            "score": 10,
+            "perc": 100,
+            "inc": [],
+            "timeStamp": "2026-07-26T19:40:31.085Z",
+            "t": 10
           }
         },
         "letter": "B",
-        "percentage": 88.1
+        "percentage": 88.97
       },
       "meta": {
         "courseName": "Algebra 2",
