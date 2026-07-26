@@ -77,15 +77,45 @@
             ],
             "timeStamp": "2026-07-24T23:06:18.058Z",
             "t": 10
+          },
+          "2.02 - Factoring by Grouping": {
+            "score": 9,
+            "perc": 90,
+            "inc": [
+              "2|1"
+            ],
+            "timeStamp": "2026-07-26T17:09:27.189Z",
+            "t": 10
           }
         },
         "letter": "B",
-        "percentage": 86.84
+        "percentage": 87.21
       },
       "meta": {
+        "courseName": "Algebra 2",
+        "courseid": "alg2",
+        "courseColor": "#cd2c00",
+        "isHonors": true,
+        "estimatedDays": 180,
+        "totalAssesments": 64
+      }
+    },
+    {
+      "name": "Geometry",
+      "id": "geo",
+      "progress": {
+        "grades": {},
+        "letter": null,
+        "percentage": null
+      },
+      "color": "#44b3a4",
+      "meta": {
+        "courseName": "Geometry",
+        "courseid": "geo",
+        "courseColor": "#44b3a4",
         "isHonors": false,
         "estimatedDays": 180,
-        "totalAssesments": 70
+        "totalAssesments": 64
       }
     }
   ]
