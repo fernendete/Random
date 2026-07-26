@@ -86,10 +86,17 @@
             ],
             "timeStamp": "2026-07-26T17:09:27.189Z",
             "t": 10
+          },
+          "2.03 - Sum and Differences of Cubes": {
+            "score": 10,
+            "perc": 100,
+            "inc": [],
+            "timeStamp": "2026-07-26T17:36:35.332Z",
+            "t": 10
           }
         },
         "letter": "B",
-        "percentage": 87.21
+        "percentage": 88.54
       },
       "meta": {
         "courseName": "Algebra 2",
