@@ -1,43 +1,143 @@
 <div class="page">
-    <h1>Sum and Difference of Cubes</h1>
-    <p>Factoring polynomials with cubes can seem tricky at first, but it follows a strict, beautiful pattern. Just like the difference of squares, we have special formulas for the <strong>sum of cubes</strong> and the <strong>difference of cubes</strong>.</p>
+    <h1>2.03 – Sum and Differences of Cubes</h1>
 
-    <p><strong>The Core Formulas:</strong></p>
-    <ul>
-        <li><strong>Sum of Cubes:</strong> <math><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><msup><mi>b</mi><mn>3</mn></msup><mo>=</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo></math></li>
-        <li><strong>Difference of Cubes:</strong> <math><msup><mi>a</mi><mn>3</mn></msup><mo>-</mo><msup><mi>b</mi><mn>3</mn></msup><mo>=</mo><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo></math></li>
-    </ul>
+    <p>Las <strong>suma y diferencia de cubos</strong> son formas especiales de factorización que permiten convertir
+        expresiones cúbicas en productos de binomios y trinomios. Son extremadamente útiles en Álgebra 2 y
+        fundamentales para Precalculus.</p>
 
-    <p><strong>The Acronym to Remember: SOAP</strong></p>
-    <p>Use <strong>SOAP</strong> to keep your signs straight:</p>
-    <ul>
-        <li><strong>S</strong>ame sign as the original expression.</li>
-        <li><strong>O</strong>pposite sign for the middle term in the trinomial.</li>
-        <li><strong>A</strong>lways <strong>P</strong>ositive for the final term.</li>
-    </ul>
+    <p><strong>Las dos fórmulas clave:</strong></p>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Algebra_explanations.svg/600px-Algebra_explanations.svg.png">
+    <p>
+        <math display="block">
+            <mrow>
+                <msup><mi>a</mi><mn>3</mn></msup>
+                <mo>+</mo>
+                <msup><mi>b</mi><mn>3</mn></msup>
+                <mo>=</mo>
+                <mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo>
+                <mo>(</mo>
+                <msup><mi>a</mi><mn>2</mn></msup>
+                <mo>-</mo>
+                <mi>a</mi><mi>b</mi>
+                <mo>+</mo>
+                <msup><mi>b</mi><mn>2</mn></msup>
+                <mo>)</mo>
+            </mrow>
+        </math>
+    </p>
+
+    <p>
+        <math display="block">
+            <mrow>
+                <msup><mi>a</mi><mn>3</mn></msup>
+                <mo>-</mo>
+                <msup><mi>b</mi><mn>3</mn></msup>
+                <mo>=</mo>
+                <mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo>
+                <mo>(</mo>
+                <msup><mi>a</mi><mn>2</mn></msup>
+                <mo>+</mo>
+                <mi>a</mi><mi>b</mi>
+                <mo>+</mo>
+                <msup><mi>b</mi><mn>2</mn></msup>
+                <mo>)</mo>
+            </mrow>
+        </math>
+    </p>
+
+    <p><strong>Regla de oro:</strong>  
+        - Si es <em>suma</em> de cubos → signos: <strong>+</strong> en el binomio, <strong>- +</strong> en el trinomio.  
+        - Si es <em>diferencia</em> de cubos → signos: <strong>-</strong> en el binomio, <strong>+ +</strong> en el trinomio.
+    </p>
+
+    <img src="https://tse3.mm.bing.net/th/id/OIP.8Fz0qg9Hk8kFf8zJt2u6xQHaHa?rs=1&pid=ImgDetMain" />
+
+    <h2>Ejemplo 1: Suma de cubos</h2>
+    <p>
+        <math display="block">
+            <mrow>
+                <msup><mi>x</mi><mn>3</mn></msup>
+                <mo>+</mo>
+                <mn>8</mn>
+            </mrow>
+        </math>
+    </p>
+
+    <p>Reconocemos que 8 = 2³. Entonces:</p>
+
+    <p>
+        <math display="block">
+            <mrow>
+                <msup><mi>x</mi><mn>3</mn></msup>
+                <mo>+</mo>
+                <msup><mn>2</mn><mn>3</mn></msup>
+                <mo>=</mo>
+                <mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo>
+                <mo>(</mo>
+                <msup><mi>x</mi><mn>2</mn></msup>
+                <mo>-</mo>
+                <mn>2</mn><mi>x</mi>
+                <mo>+</mo>
+                <msup><mn>2</mn><mn>2</mn></msup>
+                <mo>)</mo>
+            </mrow>
+        </math>
+    </p>
+
+    <h2>Ejemplo 2: Diferencia de cubos</h2>
+    <p>
+        <math display="block">
+            <mrow>
+                <msup><mi>27</mi><mn>1</mn></msup>
+                <mo>-</mo>
+                <msup><mi>x</mi><mn>3</mn></msup>
+            </mrow>
+        </math>
+    </p>
+
+    <p>27 = 3³, así que:</p>
+
+    <p>
+        <math display="block">
+            <mrow>
+                <msup><mn>3</mn><mn>3</mn></msup>
+                <mo>-</mo>
+                <msup><mi>x</mi><mn>3</mn></msup>
+                <mo>=</mo>
+                <mo>(</mo><mn>3</mn><mo>-</mo><mi>x</mi><mo>)</mo>
+                <mo>(</mo>
+                <msup><mn>3</mn><mn>2</mn></msup>
+                <mo>+</mo>
+                <mn>3</mn><mi>x</mi>
+                <mo>+</mo>
+                <msup><mi>x</mi><mn>2</mn></msup>
+                <mo>)</mo>
+            </mrow>
+        </math>
+    </p>
 </div>
 
 <div class="page">
     <div class="lesson-quiz">
         <div class="next-btn">Next question</div>
 
+        <!-- Flipcard -->
         <div class="quiz-page current">
             <div class="all-flex">
-                What does the acronym SOAP stand for when factoring sums and differences of cubes?
-                <div class="answer-element" answer="Same sign, Opposite sign, Always Positive">Tap to reveal</div>
+                ¿Cuál es la fórmula para la suma de cubos?
+                <div class="answer-element" answer="a³ + b³ = (a + b)(a² - ab + b²)">Tap to reveal</div>
             </div>
         </div>
-        
+
+        <!-- Multiple choice -->
         <div class="quiz-page">
             <div class="mc">
-                <div class="o">What is the correct factorization of <math><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>8</mn></mrow></math>?</div>
+                <div class="o">¿Cuál es el binomio inicial en la diferencia de cubos?</div>
                 <div class="cs">
-                    <div class="c">(x-2)(x^2+2x+4)</div>
-                    <div class="c">ans2</div>
-                    <div class="c">ans3</div>
-                    <div class="c">ans4</div>
+                    <div class="c">(a + b)</div>
+                    <div class="c correct">(a - b)</div>
+                    <div class="c">(a² + b²)</div>
+                    <div class="c">(a² - ab + b²)</div>
                 </div>
             </div>
         </div>
