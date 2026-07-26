@@ -1,0 +1,127 @@
+{
+    "title": "2.03 - Sum and Difference of Cubes",
+    "exam": false,
+    "totalpoints": 10,
+    "questions": [
+        {
+            "worth": 1,
+            "title": "¿Cuál es la fórmula correcta para factorizar la suma de cubos <math><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><msup><mi>b</mi><mn>3</mn></msup></math>?",
+            "choices": [
+                "<math><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>-</mo><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo></math>",
+                "<math><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><mo>)</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo></math>",
+                "<math><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo></math>",
+                "<math><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>-</mo><mi>b</mi><msup><mo>)</mo><mn>2</mn></msup></math>"
+            ],
+            "correct": 0,
+            "explain": "La suma de cubos utiliza el patrón SOAP: el primer binomio tiene el mismo signo (a+b), y el trinomio usa signo opuesto (-ab) y siempre positivo (+b^2)."
+        },
+        {
+            "worth": 1,
+            "title": "¿Qué significa el acrónimo SOAP al recordar las fórmulas de cubos?",
+            "choices": [
+                "Square, Operation, Add, Power",
+                "Same sign, Opposite sign, Always Positive",
+                "Subtract, Order, Algebra, Polynomial",
+                "Simple or Advanced Polynomial"
+            ],
+            "correct": 1,
+            "explain": "SOAP significa Same (mismo signo), Opposite (signo opuesto) y Always Positive (siempre positivo)."
+        },
+        {
+            "worth": 1,
+            "title": "Factoriza completamente la expresión <math><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>8</mn></math>",
+            "choices": [
+                "<math><mo>(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mn>4</mn><mo>)</mo></math>"
+            ],
+            "correct": 0,
+            "explain": "Aquí a=x y b=2. Aplicando la diferencia de cubos y SOAP, resulta en (x-2)(x^2 + 2x + 4)."
+        },
+        {
+            "worth": 1,
+            "title": "Factoriza la suma de cubos <math><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>27</mn></math>",
+            "choices": [
+                "<math><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>9</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>9</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>9</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mi>x</mi><mo>+</mo><mn>9</mn><mo>)</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></math>"
+            ],
+            "correct": 1,
+            "explain": "a=x y b=3 (ya que 3^3=27). Usando la suma de cubos, queda (x+3)(x^2 - 3x + 9)."
+        },
+        {
+            "worth": 1,
+            "title": "Al factorizar <math><mn>8</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>125</mn></math>, ¿cuáles son los valores de <math><mi>a</mi></math> y <math><mi>b</mi></math> para la fórmula?",
+            "choices": [
+                "<math><mi>a</mi><mo>=</mo><mn>8</mn><mi>x</mi><mo>,</mo><mo> </mo><mi>b</mi><mo>=</mo><mn>125</mn></math>",
+                "<math><mi>a</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>,</mo><mo> </mo><mi>b</mi><mo>=</mo><mn>5</mn></math>",
+                "<math><mi>a</mi><mo>=</mo><mn>4</mn><mi>x</mi><mo>,</mo><mo> </mo><mi>b</mi><mo>=</mo><mn>25</mn></math>",
+                "<math><mi>a</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>,</mo><mo> </mo><mi>b</mi><mo>=</mo><mn>25</mn></math>"
+            ],
+            "correct": 1,
+            "explain": "Raíz cúbica de 8x^3 es 2x (a=2x), y raíz cúbica de 125 es 5 (b=5)."
+        },
+        {
+            "worth": 1,
+            "title": "¿Cuál es el resultado de factorizar <math><mn>8</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>125</mn></math> completamente?",
+            "choices": [
+                "<math><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>5</mn><mo>)</mo><mo>(</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>10</mn><mi>x</mi><mo>+</mo><mn>25</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo>)</mo><mo>(</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>10</mn><mi>x</mi><mo>+</mo><mn>25</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>5</mn><mo>)</mo><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>10</mn><mi>x</mi><mo>+</mo><mn>25</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>5</mn><mo>)</mo><mo>(</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>10</mn><mi>x</mi><mo>+</mo><mn>25</mn><mo>)</mo></math>"
+            ],
+            "correct": 0,
+            "explain": "Con a=2x y b=5, la fórmula da (2x-5)((2x)^2 + (2x)(5) + 5^2), que se simplifica a (2x-5)(4x^2 + 10x + 25)."
+        },
+        {
+            "worth": 1,
+            "title": "¿Cuál es la expresión factorizada de <math><mn>64</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></math>?",
+            "choices": [
+                "<math><mo>(</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>16</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mn>4</mn><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>16</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>16</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>"
+            ],
+            "correct": 0,
+            "explain": "a=4x y b=1. Usando suma de cubos: (4x+1)((4x)^2 - (4x)(1) + 1^2) = (4x+1)(16x^2 - 4x + 1)."
+        },
+        {
+            "worth": 1,
+            "title": "¿Por qué el trinomio resultante en las fórmulas de suma y diferencia de cubos (<math><msup><mi>a</mi><mn>2</mn></msup><mo>±</mo><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>) no se puede factorizar más en los números reales?",
+            "choices": [
+                "Porque siempre da un discriminante negativo",
+                "Porque es un trinomio cuadrado perfecto",
+                "Porque los coeficientes son impares",
+                "Porque el grado es muy alto"
+            ],
+            "correct": 0,
+            "explain": "Ese trinomio es irreducible en los números reales porque al aplicar la fórmula general se obtiene un discriminante negativo (raíz con números complejos)."
+        },
+        {
+            "worth": 1,
+            "title": "Identifica los factores correctos para la diferencia de cubos <math><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>64</mn></math>",
+            "choices": [
+                "<math><mo>(</mo><mi>x</mi><mo>-</mo><mn>4</mn><mo>)</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>16</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>16</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mi>x</mi><mo>-</mo><mn>4</mn><mo>)</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>16</mn><mo>)</mo></math>",
+                "<math><mo>(</mo><mi>x</mi><mo>-</mo><mn>8</mn><mo>)</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>64</mn><mo>)</mo></math>"
+            ],
+            "correct": 0,
+            "explain": "a=x y b=4 (ya que 4^3=64). Siguiendo la diferencia de cubos y SOAP, tenemos (x-4)(x^2 + 4x + 16)."
+        },
+        {
+            "worth": 1,
+            "title": "¿Qué término del trinomio resultante de la suma de cubos lleva el signo negativo según SOAP?",
+            "choices": [
+                "El primer término (<math><msup><mi>a</mi><mn>2</mn></msup></math>)",
+                "El término del medio (<math><mi>a</mi><mi>b</mi></math>)",
+                "El último término (<math><msup><mi>b</mi><mn>2</mn></msup></math>)",
+                "Ninguno"
+            ],
+            "correct": 1,
+            "explain": "En la suma de cubos, el signo del término del medio (ab) es Opuesto, por lo tanto es negativo (-ab)."
+        }
+    ]
+}
