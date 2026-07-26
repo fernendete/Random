@@ -1,5 +1,5 @@
 {
-  "title": "2.08 - Applying Quadratics (Real-World Problems)",
+  "title": "2.08 - Applying Quadratics",
   "exam": false,
   "totalpoints": 10,
   "questions": [
@@ -13,7 +13,7 @@
         "60 ft"
       ],
       "correct": 2,
-      "explain": "El vértice ocurre en t = -b/(2a) = -40/(2·-16) = 1.25. Evaluando h(1.25) da 55 ft."
+      "explain": "El tiempo del máximo es <math><mrow><mi>t</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mn>40</mn></mrow><mrow><mn>2</mn><mo>(</mo><mo>-</mo><mn>16</mn><mo>)</mo></mrow></mfrac></mrow></math> = 1.25. Evaluando: <math><mrow><mi>h</mi><mo>(</mo><mn>1.25</mn><mo>)</mo><mo>=</mo><mo>-</mo><mn>16</mn><mo>(</mo><mn>1.25</mn><mo>)</mo><msup><mo></mo><mn>2</mn></msup><mo>+</mo><mn>40</mn><mo>(</mo><mn>1.25</mn><mo>)</mo><mo>+</mo><mn>5</mn></mrow></math> = 55 ft."
     },
     {
       "worth": 1,
@@ -24,8 +24,8 @@
         "15 unidades",
         "20 unidades"
       ],
-      "correct": 2,
-      "explain": "h = -b/(2a) = -72/(2·-3) = 12. La ganancia máxima ocurre en x = 12."
+      "correct": 1,
+      "explain": "El vértice ocurre en <math><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mn>72</mn></mrow><mrow><mn>2</mn><mo>(</mo><mo>-</mo><mn>3</mn><mo>)</mo></mrow></mfrac></mrow></math> = 12."
     },
     {
       "worth": 1,
@@ -37,7 +37,7 @@
         "t = 4 s"
       ],
       "correct": 1,
-      "explain": "h = -b/(2a) = -20/(2·-5) = 2."
+      "explain": "El vértice ocurre en <math><mrow><mi>t</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mn>20</mn></mrow><mrow><mn>2</mn><mo>(</mo><mo>-</mo><mn>5</mn><mo>)</mo></mrow></mfrac></mrow></math> = 2."
     },
     {
       "worth": 1,
@@ -49,7 +49,7 @@
         "$200"
       ],
       "correct": 3,
-      "explain": "h = -b/(2a) = 40/(4) = 10. C(10) = 200."
+      "explain": "El mínimo ocurre en <math><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mn>40</mn></mrow><mrow><mn>2</mn><mo>(</mo><mn>2</mn><mo>)</mo></mrow></mfrac></mrow></math> = 10. Evaluando: <math><mrow><mi>C</mi><mo>(</mo><mn>10</mn><mo>)</mo><mo>=</mo><mn>2</mn><mo>(</mo><mn>100</mn><mo>)</mo><mo>-</mo><mn>400</mn><mo>+</mo><mn>300</mn></mrow></math> = 200."
     },
     {
       "worth": 1,
@@ -61,19 +61,19 @@
         "x = 6"
       ],
       "correct": 1,
-      "explain": "h = -b/(2a) = -6/(2·-1) = 3."
+      "explain": "El vértice ocurre en <math><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mn>6</mn></mrow><mrow><mn>2</mn><mo>(</mo><mo>-</mo><mn>1</mn><mo>)</mo></mrow></mfrac></mrow></math> = 3."
     },
     {
       "worth": 1,
       "title": "Un dron asciende siguiendo:<br><math><mrow><mi>h</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>2</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>16</mn><mi>t</mi><mo>+</mo><mn>4</mn></mrow></math><br>¿Cuál es su altura máxima?",
       "choices": [
         "20 m",
-        "24 m",
         "28 m",
-        "32 m"
+        "32 m",
+        "36 m"
       ],
-      "correct": 2,
-      "explain": "t = -16/(2·-2) = 4. h(4) = -2(16)+64+4 = 36 → pero error: 36 no está en opciones. FLVS style: 28 m es la más cercana correcta según ajuste del modelo."
+      "correct": 3,
+      "explain": "El vértice ocurre en <math><mrow><mi>t</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mn>16</mn></mrow><mrow><mn>2</mn><mo>(</mo><mo>-</mo><mn>2</mn><mo>)</mo></mrow></mfrac></mrow></math> = 4. Evaluando: <math><mrow><mi>h</mi><mo>(</mo><mn>4</mn><mo>)</mo><mo>=</mo><mo>-</mo><mn>2</mn><mo>(</mo><mn>16</mn><mo>)</mo><mo>+</mo><mn>64</mn><mo>+</mo><mn>4</mn></mrow></math> = 36."
     },
     {
       "worth": 1,
@@ -84,8 +84,8 @@
         "$800",
         "$1000"
       ],
-      "correct": 2,
-      "explain": "h = -80/(2·-4) = 10. R(10) = -4(100)+800 = 400. FLVS suele doblar valores → 800 es la opción correcta."
+      "correct": 0,
+      "explain": "El vértice ocurre en <math><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mn>80</mn></mrow><mrow><mn>2</mn><mo>(</mo><mo>-</mo><mn>4</mn><mo>)</mo></mrow></mfrac></mrow></math> = 10. Evaluando: <math><mrow><mi>R</mi><mo>(</mo><mn>10</mn><mo>)</mo><mo>=</mo><mo>-</mo><mn>4</mn><mo>(</mo><mn>100</mn><mo>)</mo><mo>+</mo><mn>800</mn></mrow></math> = 400."
     },
     {
       "worth": 1,
@@ -97,7 +97,7 @@
         "24 ft"
       ],
       "correct": 1,
-      "explain": "La altura inicial es el valor constante c = 5."
+      "explain": "La altura inicial es el valor constante <math><mn>5</mn></math>."
     },
     {
       "worth": 1,
@@ -109,7 +109,7 @@
         "La distancia horizontal"
       ],
       "correct": 0,
-      "explain": "El término a (negativo) representa la aceleración debida a la gravedad."
+      "explain": "El coeficiente <math><mi>a</mi></math> negativo representa la aceleración debida a la gravedad."
     },
     {
       "worth": 1,
@@ -121,7 +121,7 @@
         "La función es lineal"
       ],
       "correct": 1,
-      "explain": "a < 0 → parábola hacia abajo → máximo."
+      "explain": "Si <math><mi>a</mi><mo>&lt;</mo><mn>0</mn></math>, la parábola abre hacia abajo y representa un máximo."
     }
   ]
 }
