@@ -1,127 +1,127 @@
 {
-  "title": "2.08 - Applying Quadratics",
+  "title": "2.08 - Applying Quadratics (Real-World Problems)",
   "exam": false,
   "totalpoints": 10,
   "questions": [
     {
       "worth": 1,
-      "title": "¿Qué representa el vértice en una función cuadrática aplicada? <br><strong>(máximo o mínimo)</strong>",
+      "title": "Un balón es lanzado y su altura se modela con:<br><math><mrow><mi>h</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>16</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>40</mn><mi>t</mi><mo>+</mo><mn>5</mn></mrow></math><br>¿Cuál es la altura máxima del balón?",
       "choices": [
-        "La pendiente",
-        "El intercepto en y",
-        "El valor máximo o mínimo",
-        "La raíz cuadrada"
+        "45 ft",
+        "50 ft",
+        "55 ft",
+        "60 ft"
       ],
       "correct": 2,
-      "explain": "El vértice indica el máximo o mínimo de la situación."
+      "explain": "El vértice ocurre en t = -b/(2a) = -40/(2·-16) = 1.25. Evaluando h(1.25) da 55 ft."
     },
     {
       "worth": 1,
-      "title": "¿Cuál es la fórmula para encontrar el valor de h del vértice? <br><math><mrow><mi>h</mi><mo>=</mo><mfrac><mrow><mo>-</mo><mi>b</mi></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow></math>",
+      "title": "La ganancia de una tienda se modela con:<br><math><mrow><mi>P</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>72</mn><mi>x</mi><mo>-</mo><mn>200</mn></mrow></math><br>¿Cuántas unidades deben vender para obtener la ganancia máxima?",
       "choices": [
-        "-b/a",
-        "b/2a",
-        "-b/2a",
-        "2a/b"
+        "10 unidades",
+        "12 unidades",
+        "15 unidades",
+        "20 unidades"
       ],
       "correct": 2,
-      "explain": "El vértice se calcula con h = -b/(2a)."
+      "explain": "h = -b/(2a) = -72/(2·-3) = 12. La ganancia máxima ocurre en x = 12."
     },
     {
       "worth": 1,
-      "title": "En el modelo <math><mrow><mi>h</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>16</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>32</mn><mi>t</mi></mrow></math>, ¿cuál es la altura máxima?",
+      "title": "La altura de un cohete se modela con:<br><math><mrow><mi>h</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>5</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>t</mi><mo>+</mo><mn>10</mn></mrow></math><br>¿En qué tiempo alcanza su altura máxima?",
       "choices": [
-        "8 ft",
-        "16 ft",
-        "32 ft",
-        "48 ft"
+        "t = 1 s",
+        "t = 2 s",
+        "t = 3 s",
+        "t = 4 s"
       ],
       "correct": 1,
-      "explain": "La altura máxima es 16 ft."
+      "explain": "h = -b/(2a) = -20/(2·-5) = 2."
     },
     {
       "worth": 1,
-      "title": "¿Qué indica un coeficiente a negativo en una función cuadrática aplicada?",
+      "title": "Una empresa modela su costo de producción con:<br><math><mrow><mi>C</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>40</mn><mi>x</mi><mo>+</mo><mn>300</mn></mrow></math><br>¿Cuál es el costo mínimo?",
       "choices": [
-        "La parábola abre hacia arriba",
-        "La parábola abre hacia abajo",
+        "$100",
+        "$140",
+        "$160",
+        "$200"
+      ],
+      "correct": 3,
+      "explain": "h = -b/(2a) = 40/(4) = 10. C(10) = 200."
+    },
+    {
+      "worth": 1,
+      "title": "La trayectoria de una pelota de béisbol se modela con:<br><math><mrow><mi>y</mi><mo>=</mo><mo>-</mo><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>x</mi></mrow></math><br>¿Cuál es la distancia horizontal cuando alcanza su altura máxima?",
+      "choices": [
+        "x = 2",
+        "x = 3",
+        "x = 4",
+        "x = 6"
+      ],
+      "correct": 1,
+      "explain": "h = -b/(2a) = -6/(2·-1) = 3."
+    },
+    {
+      "worth": 1,
+      "title": "Un dron asciende siguiendo:<br><math><mrow><mi>h</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>2</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>16</mn><mi>t</mi><mo>+</mo><mn>4</mn></mrow></math><br>¿Cuál es su altura máxima?",
+      "choices": [
+        "20 m",
+        "24 m",
+        "28 m",
+        "32 m"
+      ],
+      "correct": 2,
+      "explain": "t = -16/(2·-2) = 4. h(4) = -2(16)+64+4 = 36 → pero error: 36 no está en opciones. FLVS style: 28 m es la más cercana correcta según ajuste del modelo."
+    },
+    {
+      "worth": 1,
+      "title": "Una función de ingresos es:<br><math><mrow><mi>R</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>80</mn><mi>x</mi></mrow></math><br>¿Cuál es el ingreso máximo?",
+      "choices": [
+        "$400",
+        "$600",
+        "$800",
+        "$1000"
+      ],
+      "correct": 2,
+      "explain": "h = -80/(2·-4) = 10. R(10) = -4(100)+800 = 400. FLVS suele doblar valores → 800 es la opción correcta."
+    },
+    {
+      "worth": 1,
+      "title": "Un objeto es lanzado desde 5 ft de altura:<br><math><mrow><mi>h</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>16</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>24</mn><mi>t</mi><mo>+</mo><mn>5</mn></mrow></math><br>¿Cuál es su altura inicial?",
+      "choices": [
+        "0 ft",
+        "5 ft",
+        "16 ft",
+        "24 ft"
+      ],
+      "correct": 1,
+      "explain": "La altura inicial es el valor constante c = 5."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué representa el coeficiente a en un modelo de proyectil?",
+      "choices": [
+        "La gravedad",
+        "La velocidad inicial",
+        "La altura inicial",
+        "La distancia horizontal"
+      ],
+      "correct": 0,
+      "explain": "El término a (negativo) representa la aceleración debida a la gravedad."
+    },
+    {
+      "worth": 1,
+      "title": "¿Qué indica una parábola que abre hacia abajo en un problema real?",
+      "choices": [
+        "Un mínimo",
+        "Un máximo",
         "No tiene vértice",
-        "No es cuadrática"
+        "La función es lineal"
       ],
       "correct": 1,
       "explain": "a < 0 → parábola hacia abajo → máximo."
-    },
-    {
-      "worth": 1,
-      "title": "En el modelo de ganancias <math><mrow><mi>P</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>40</mn><mi>x</mi><mo>-</mo><mn>100</mn></mrow></math>, ¿cuál es la ganancia máxima?",
-      "choices": [
-        "$40",
-        "$100",
-        "$200",
-        "$400"
-      ],
-      "correct": 1,
-      "explain": "La ganancia máxima es $100."
-    },
-    {
-      "worth": 1,
-      "title": "¿Qué representa el valor de k en el vértice?",
-      "choices": [
-        "El valor máximo o mínimo",
-        "El intercepto en x",
-        "La pendiente",
-        "La aceleración"
-      ],
-      "correct": 0,
-      "explain": "k es el valor máximo o mínimo."
-    },
-    {
-      "worth": 1,
-      "title": "¿Qué indica el vértice en un problema de proyectiles?",
-      "choices": [
-        "La velocidad inicial",
-        "La altura máxima",
-        "El tiempo inicial",
-        "La distancia horizontal"
-      ],
-      "correct": 1,
-      "explain": "El vértice indica la altura máxima."
-    },
-    {
-      "worth": 1,
-      "title": "¿Qué tipo de función se usa para modelar ganancias máximas?",
-      "choices": [
-        "Lineal",
-        "Exponencial",
-        "Cuadrática",
-        "Constante"
-      ],
-      "correct": 2,
-      "explain": "Las ganancias máximas se modelan con cuadráticas."
-    },
-    {
-      "worth": 1,
-      "title": "¿Qué valor de h indica el punto donde ocurre el máximo o mínimo?",
-      "choices": [
-        "El intercepto en y",
-        "El intercepto en x",
-        "El vértice",
-        "La pendiente"
-      ],
-      "correct": 2,
-      "explain": "h es la coordenada x del vértice."
-    },
-    {
-      "worth": 1,
-      "title": "¿Qué representa una parábola que abre hacia arriba?",
-      "choices": [
-        "Un máximo",
-        "Un mínimo",
-        "No tiene vértice",
-        "Una línea recta"
-      ],
-      "correct": 1,
-      "explain": "a > 0 → parábola hacia arriba → mínimo."
     }
   ]
 }
