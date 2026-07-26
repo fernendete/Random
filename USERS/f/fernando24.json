@@ -128,10 +128,24 @@
             "inc": [],
             "timeStamp": "2026-07-26T19:40:31.085Z",
             "t": 10
+          },
+          "2.08 - Applying Quadratics (Real-World Problems)": {
+            "score": 4,
+            "perc": 40,
+            "inc": [
+              "1|2",
+              "3|3",
+              "5|2",
+              "6|2",
+              "8|0",
+              "9|1"
+            ],
+            "timeStamp": "2026-07-26T20:04:21.426Z",
+            "t": 10
           }
         },
         "letter": "B",
-        "percentage": 88.97
+        "percentage": 85.62
       },
       "meta": {
         "courseName": "Algebra 2",
