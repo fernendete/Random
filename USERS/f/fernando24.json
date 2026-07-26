@@ -7,7 +7,6 @@
       "col": "#cd2c00",
       "id": "alg2",
       "progress": {
-        "total": 64,
         "grades": {
           "1.01 - Rational Exponents": {
             "score": 10,
@@ -123,24 +122,6 @@
         "courseid": "alg2",
         "courseColor": "#cd2c00",
         "isHonors": true,
-        "estimatedDays": 180,
-        "totalAssesments": 64
-      }
-    },
-    {
-      "name": "Geometry",
-      "id": "geo",
-      "progress": {
-        "grades": {},
-        "letter": null,
-        "percentage": null
-      },
-      "color": "#44b3a4",
-      "meta": {
-        "courseName": "Geometry",
-        "courseid": "geo",
-        "courseColor": "#44b3a4",
-        "isHonors": false,
         "estimatedDays": 180,
         "totalAssesments": 64
       }
