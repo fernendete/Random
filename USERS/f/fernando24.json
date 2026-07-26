@@ -130,22 +130,18 @@
             "t": 10
           },
           "2.08 - Applying Quadratics": {
-            "score": 4,
-            "perc": 40,
+            "score": 8,
+            "perc": 80,
             "inc": [
-              "1|2",
-              "3|3",
-              "5|2",
-              "6|2",
-              "8|0",
-              "9|1"
+              "0|2",
+              "8|0"
             ],
-            "timeStamp": "2026-07-26T20:04:21.426Z",
+            "timeStamp": "2026-07-26T20:13:28.169Z",
             "t": 10
           }
         },
         "letter": "B",
-        "percentage": 85.62
+        "percentage": 88.36
       },
       "meta": {
         "courseName": "Algebra 2",
