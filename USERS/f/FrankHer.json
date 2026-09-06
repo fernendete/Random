@@ -1,0 +1,21 @@
+{
+  "username": "FrankHer",
+  "approvedTeacher": true,
+  "password": "12345678",
+  "courses": [
+    {
+      "name": "Algebra 2",
+      "col": "#cd2c00",
+      "id": "alg2",
+      "students": ["fernando24", "MECAGO"],
+      "meta": {
+        "courseName": "Algebra 2",
+        "courseid": "alg2",
+        "courseColor": "#cd2c00",
+        "isHonors": true,
+        "estimatedDays": 180,
+        "totalAssesments": 64
+      }
+    }
+  ]
+}
